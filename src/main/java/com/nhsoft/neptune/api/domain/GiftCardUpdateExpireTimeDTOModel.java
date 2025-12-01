@@ -1,0 +1,27 @@
+package com.nhsoft.neptune.api.domain;
+
+import com.nhsoft.neptune.ApiCloudObject;
+import com.nhsoft.neptune.ApiCloudField;
+
+import java.math.BigDecimal;
+
+import java.util.*;
+
+import lombok.Data;
+
+import lombok.EqualsAndHashCode;
+
+/**
+ * GiftCardUpdateExpireTimeDTO模型
+ */
+@Data
+@EqualsAndHashCode(callSuper = true)
+public class GiftCardUpdateExpireTimeDTOModel extends ApiCloudObject {
+
+    @ApiCloudField(value="expire_time")
+    private String expireTime;
+    @ApiCloudField(value="card_id", required=true)
+    private Long cardId;
+    @ApiCloudField(value="operator", required=true)
+    private String operator;
+}
