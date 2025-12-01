@@ -7,7 +7,15 @@
 
 ### 添加依赖
 
-在Maven项目的pom.xml中添加以下依赖（暂没有对外maven仓库，需要下载jar包引入本地项目）：
+在Maven项目的pom.xml中添加以下依赖：
+```xml
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
 
 ```xml
 <dependency>
