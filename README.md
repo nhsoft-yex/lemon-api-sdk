@@ -19,12 +19,10 @@
 
 ```xml
 <dependency>
-    <groupId>com.nhsoft.neptune</groupId>
-    <artifactId>apicloud-sdk-java</artifactId>
-    <version>2025-11-18.BETA</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/src/main/resources/lib/apicloud-sdk-core-202511.1.jar</systemPath>
-</dependency>
+  <groupId>com.github.nhsoft-yex</groupId>
+  <artifactId>lemon-api-sdk</artifactId>
+  <version>2025-11-18.RELEASE</version>
+ </dependency>
 ```
 
 注意：SDK不强制绑定特定版本的HTTP客户端库，您可以选择以下任一方式：
