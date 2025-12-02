@@ -41,6 +41,6 @@ public class PaymentOrderSaveDTOModel extends ApiCloudObject {
     private Boolean amountLock;
     @ApiCloudField(value="描述", example="描述信息")
     private String description;
-    @ApiCloudField(value="退款收款单支付流水号")
+    @ApiCloudField(value="退款收款单支付流水号", example="")
     private String originOrderNo;
 }

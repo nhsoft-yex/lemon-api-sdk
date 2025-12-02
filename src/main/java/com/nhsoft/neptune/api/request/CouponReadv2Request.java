@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.TicketSendDetailSimpleDTOModel;
 import java.util.*;
 
 /**
- * read_25请求类
+ * read_26请求类
  * 根据消费券的表面卡号读取消费券
  */
 public class CouponReadv2Request implements ApiCloudRequest<TicketSendPrintNumV2DTOModel, TicketSendDetailSimpleDTOModel> {

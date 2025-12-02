@@ -33,7 +33,7 @@ public class CardOrderSaveDetailDTOModel extends ApiCloudObject {
     private String cardOrderDetailPassword;
     @ApiCloudField(value="order_detail_repeal_money")
     private BigDecimal orderDetailRepealMoney;
-    @ApiCloudField(value="备注", example="454154151", required=true)
+    @ApiCloudField(value="备注 ", example="454154151", required=true)
     private String cardUserMemo;
     @ApiCloudField(value="会员卡编号（团购储值类型时填写）", example="454154151", required=true)
     private Integer cardUserNum;

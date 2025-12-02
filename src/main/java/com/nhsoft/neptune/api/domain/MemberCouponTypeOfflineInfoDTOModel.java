@@ -51,7 +51,7 @@ public class MemberCouponTypeOfflineInfoDTOModel extends ApiCloudObject {
     private Boolean moneyExceptPromotionItems;
     @ApiCloudField(value="不计入使用门槛-手改价商品(false为选中)", example="false")
     private Boolean manualChangedIncludeMinMoney;
-    @ApiCloudField(value="启用卡叠加")
+    @ApiCloudField(value="启用会员折上折", example="true")
     private Boolean enableCardFoldUp;
     @ApiCloudField(value="禁止手工录入", example="true")
     private Boolean noEntryByHand;
@@ -67,14 +67,14 @@ public class MemberCouponTypeOfflineInfoDTOModel extends ApiCloudObject {
     private BigDecimal ticketPointValue;
     @ApiCloudField(value="discount_type")
     private Integer discountType;
-    @ApiCloudField(value="doorsill_all_item", example="true")
+    @ApiCloudField(value="是否全部商品", example="true")
     private Boolean doorsillAllItem;
-    @ApiCloudField(value="doorsill_category_codes")
+    @ApiCloudField(value="门槛商品-指定类别", example="")
     private List<String> doorsillCategoryCodes;
-    @ApiCloudField(value="doorsill_except_category_codes")
+    @ApiCloudField(value="门槛商品-例外类别", example="")
     private List<String> doorsillExceptCategoryCodes;
-    @ApiCloudField(value="doorsill_item_nums")
+    @ApiCloudField(value="门槛商品-商品NUMS(全部商品和指定类别时存例外商品 指定商品时存允许折扣商品)", example="")
     private List<Integer> doorsillItemNums;
-    @ApiCloudField(value="doorsill_item_grade_nums")
+    @ApiCloudField(value="门槛商品-分级商品NUMS(全部商品和指定类别时存例外商品 指定商品时存允许折扣商品)", example="")
     private List<Integer> doorsillItemGradeNums;
 }

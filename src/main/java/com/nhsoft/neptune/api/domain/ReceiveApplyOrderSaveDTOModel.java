@@ -37,6 +37,6 @@ public class ReceiveApplyOrderSaveDTOModel extends ApiCloudObject {
     private BigDecimal totalAmount;
     @ApiCloudField(value="外部单据号", example="PI43440000001", required=true)
     private String refBillNo;
-    @ApiCloudField(value="明细", required=true)
+    @ApiCloudField(value="明细", example="", required=true)
     private List<ReceiveApplyOrderDetailSaveDTOModel> receivableOrderDetails;
 }

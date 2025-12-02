@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.PolicyMoneyVOModel;
 import java.util.*;
 
 /**
- * find_31请求类
+ * find_32请求类
  * 超额奖励查询
  */
 public class PolicyMoneyFindRequest implements ApiCloudRequest<PolicyFindDTOModel, List<PolicyMoneyVOModel>> {

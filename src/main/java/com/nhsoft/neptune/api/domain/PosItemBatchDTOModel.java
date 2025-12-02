@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemBatchDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品编码列表", example="[102200551]", required=true)
+    @ApiCloudField(value="商品编码", example="[102200551]", required=true)
     private List<Integer> itemNums;
 }

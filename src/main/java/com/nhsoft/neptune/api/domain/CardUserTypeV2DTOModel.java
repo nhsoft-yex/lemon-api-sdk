@@ -19,9 +19,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CardUserTypeV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="类型编号")
+    @ApiCloudField(value="类型编号", example="")
     private String typeCode;
-    @ApiCloudField(value="类型名称")
+    @ApiCloudField(value="类型名称", example="")
     private String typeName;
     @ApiCloudField(value="默认有效天数")
     private Integer typeDefaultDays;
@@ -45,9 +45,9 @@ public class CardUserTypeV2DTOModel extends ApiCloudObject {
     private BigDecimal depositBasic;
     @ApiCloudField(value="生日折扣", example="1.0")
     private BigDecimal birthDiscount;
-    @ApiCloudField(value="会员卡卡号颜色")
+    @ApiCloudField(value="会员卡卡号颜色", example="")
     private String cardUserTypeImageId;
-    @ApiCloudField(value="图片路径")
+    @ApiCloudField(value="图片路径", example="")
     private String cardUserTypeImagePath;
     @ApiCloudField(value="最低控制金额", example="1.0")
     private BigDecimal cardMinBalance;
@@ -63,7 +63,7 @@ public class CardUserTypeV2DTOModel extends ApiCloudObject {
     private BigDecimal settlementDiscount;
     @ApiCloudField(value="会员优惠不与消费券同享", example="false")
     private Boolean discountWithoutCoupon;
-    @ApiCloudField(value="卡号颜色")
+    @ApiCloudField(value="卡号颜色", example="")
     private String typePrintedColor;
     @ApiCloudField(value="是否启用", example="false")
     private Boolean typeValid;

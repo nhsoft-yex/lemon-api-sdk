@@ -27,11 +27,11 @@ public class WholesaleInnerOrderDetailSaveDTOModel extends ApiCloudObject {
     private BigDecimal itemUsePrice;
     @ApiCloudField(value="申请单位", example="公斤", required=true)
     private String itemUseUnit;
-    @ApiCloudField(value="申请备注")
+    @ApiCloudField(value="申请备注", example="")
     private String itemMemo;
     @ApiCloudField(value="赠品常用数量")
     private BigDecimal itemPresentUseQty;
-    @ApiCloudField(value="赠品单位")
+    @ApiCloudField(value="赠品单位", example="")
     private String itemPresentUnit;
     @ApiCloudField(value="批次号", example="20240101")
     private String itemLotNumber;

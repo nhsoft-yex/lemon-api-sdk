@@ -39,6 +39,6 @@ public class WholesaleReturnSaveDTOModel extends ApiCloudObject {
     private String wholesaleOrderFid;
     @ApiCloudField(value="销售员", example="管理员")
     private String wholesaleReturnSeller;
-    @ApiCloudField(value="订单明细", required=true)
+    @ApiCloudField(value="订单明细", example="", required=true)
     private List<WholesaleReturnDetailSaveDTOModel> wholesaleReturnDetails;
 }

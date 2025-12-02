@@ -18,10 +18,10 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardLockDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="card_id", required=true)
+    @ApiCloudField(value="礼品卡id", required=true)
     private Long cardId;
-    @ApiCloudField(value="branch_num", required=true)
+    @ApiCloudField(value="操作门店", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="operator", required=true)
+    @ApiCloudField(value="操作人", example="张三", required=true)
     private String operator;
 }

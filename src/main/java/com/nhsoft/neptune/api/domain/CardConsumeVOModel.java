@@ -51,17 +51,17 @@ public class CardConsumeVOModel extends ApiCloudObject {
     private String systemBookCode;
     @ApiCloudField(value="消费分类(1.pos消费2.线上消费.3ic卡消费)", example="1")
     private Integer consumeCategory;
-    @ApiCloudField(value="消费类型(查询参数)", example="消费")
+    @ApiCloudField(value=" 消费类型(查询参数)", example="消费")
     private String consumeType;
-    @ApiCloudField(value="消费前余额(查询参数)", example="1.0")
+    @ApiCloudField(value=" 消费前余额(查询参数)", example="1.0")
     private BigDecimal consumeBalance;
-    @ApiCloudField(value="发票金额(查询参数)", example="1.0")
+    @ApiCloudField(value=" 发票金额(查询参数)", example="1.0")
     private BigDecimal consumeInvoice;
     @ApiCloudField(value="消费时间(查询参数)", example="2021-01-21")
     private String consumeDate;
     @ApiCloudField(value="消费时间")
     private String consumeTime;
-    @ApiCloudField(value="消费次数(查询参数)", example="1")
+    @ApiCloudField(value=" 消费次数(查询参数)", example="1")
     private Integer consumeCount;
     @ApiCloudField(value="卡类型编号", example="99")
     private String cardUserTypeCode;

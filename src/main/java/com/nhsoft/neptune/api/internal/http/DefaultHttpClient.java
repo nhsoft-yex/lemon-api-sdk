@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * 
  * 注意：使用者需要自行添加OkHttp依赖到项目中
  */
-public class DefaultHttpClient implements HttpClient {
+public final class DefaultHttpClient implements HttpClient {
     
     private final OkHttpClient client;
     

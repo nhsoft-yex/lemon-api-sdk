@@ -35,14 +35,14 @@ public class PayableOrderSaveandauditDTOModel extends ApiCloudObject {
     private Integer srcBranchId;
     @ApiCloudField(value="快速单据类型", example="外部费用单")
     private String quickOrderType;
-    @ApiCloudField(value="外部单据号")
+    @ApiCloudField(value="外部单据号", example="")
     private String refBillNo;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String operator;
     @ApiCloudField(value="备注", example="1")
     private String remark;
-    @ApiCloudField(value="费用详情", required=true)
+    @ApiCloudField(value="费用详情", example="", required=true)
     private List<PayableFeeDetailRequestDTOModel> feeDetailRequests;
-    @ApiCloudField(value="计划", required=true)
+    @ApiCloudField(value="计划", example="", required=true)
     private List<PayablePlanRequestDTOModel> planRequests;
 }

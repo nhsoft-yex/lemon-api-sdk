@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PointOrderVOModel;
 import java.util.*;
 
 /**
- * read_22请求类
+ * read_23请求类
  * 积分活动读取
  */
 public class PointorderReadRequest implements ApiCloudRequest<PointOrderReadDTOModel, PointOrderVOModel> {

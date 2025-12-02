@@ -18,22 +18,22 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PlatformCouponBillFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="consume_at_begin", required=true)
+    @ApiCloudField(value="核销时间开始", required=true)
     private String consumeAtBegin;
-    @ApiCloudField(value="consume_at_end", required=true)
+    @ApiCloudField(value="核销时间结束", required=true)
     private String consumeAtEnd;
-    @ApiCloudField(value="platform_consume_branch_id", example="1852001")
+    @ApiCloudField(value="平台核销门店Id(如抖音门店编号)", example="")
     private String platformConsumeBranchId;
-    @ApiCloudField(value="identity_code", example="1852001")
+    @ApiCloudField(value="券编号", example="")
     private String identityCode;
-    @ApiCloudField(value="bill_date", example="Thu May 01 08:00:00 CST 2025")
+    @ApiCloudField(value="账单日期YYYY-MM-DD", example="Thu May 01 08:00:00 CST 2025")
     private String billDate;
-    @ApiCloudField(value="coupon_type_ids", example="[9967500001]")
+    @ApiCloudField(value="券类型列表", example="")
     private List<Long> couponTypeIds;
-    @ApiCloudField(value="consume_branch_nums", example="[1,2]")
+    @ApiCloudField(value="线下核销门店列表", example="")
     private List<Integer> consumeBranchNums;
-    @ApiCloudField(value="page_no", example="1", required=true)
+    @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
-    @ApiCloudField(value="page_size", example="20", required=true)
+    @ApiCloudField(value="查询分页大小", example="20", required=true)
     private Integer pageSize;
 }

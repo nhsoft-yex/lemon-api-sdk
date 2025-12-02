@@ -23,7 +23,7 @@ public class WholesaleBookFindV2DTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="客户编号", example="0015005990000001")
     private String clientFid;
-    @ApiCloudField(value="时间类型:制单时间、审核时间、作废时间、最后修改时间", example="审核时间", required=true)
+    @ApiCloudField(value="时间类型:制单时间、审核时间、作废时间、最后修改时间、付款确认时间", example="审核时间", required=true)
     private String dateType;
     @ApiCloudField(value="开始时间", example="2021-01-18", required=true)
     private String dateFrom;
@@ -39,6 +39,8 @@ public class WholesaleBookFindV2DTOModel extends ApiCloudObject {
     private Integer isValid;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
+    @ApiCloudField(value="是否付款", example="true")
+    private Boolean wholesaleBookEnablePayConfirm;
     @ApiCloudField(value="查询分页大小", example="10", required=true)
     private Integer pageSize;
 }

@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SupplierPreSettlementAuditRequestV2DTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="pre_settlement_no", example="YF4344010000010", required=true)
+    @ApiCloudField(value="供应商预付单号", example="YF4344010000010", required=true)
     private String preSettlementNo;
     @ApiCloudField(value="供应商编码", example="434400001", required=true)
     private Integer supplierNum;

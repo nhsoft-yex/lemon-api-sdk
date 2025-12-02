@@ -27,7 +27,7 @@ public class WholesaleInnerOrderApproveDetailDTOModel extends ApiCloudObject {
     private String innerOrderDetailLotNumber;
     @ApiCloudField(value="生产日期", example="Sat Jan 01 08:00:00 CST 2022")
     private String innerOrderDetailProducingDate;
-    @ApiCloudField(value="批复备注")
+    @ApiCloudField(value="批复备注", example="")
     private String itemMemo;
     @ApiCloudField(value="仓库编号", example="203000002")
     private Integer storehouseNum;

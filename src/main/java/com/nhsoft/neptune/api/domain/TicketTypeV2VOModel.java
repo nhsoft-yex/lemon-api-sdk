@@ -45,7 +45,7 @@ public class TicketTypeV2VOModel extends ApiCloudObject {
     private Integer ticketDefaultValidDay;
     @ApiCloudField(value="积分兑券发券后几天后生效（0天表示当天生效，1天表示第二天00:00生效，以此类推，有效天数计算时包括生效的第一天）", example="0")
     private Integer ticketStartValidDays;
-    @ApiCloudField(value="应用门店列表")
+    @ApiCloudField(value="应用门店列表", example="")
     private List<TicketBranchV2DTOModel> branchs;
     @ApiCloudField(value="适用商品范围", example="[2500,25100]")
     private List<Integer> itemNums;

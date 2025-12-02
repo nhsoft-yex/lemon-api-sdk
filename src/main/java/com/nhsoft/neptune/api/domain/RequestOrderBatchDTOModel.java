@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class RequestOrderBatchDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="要货单号列表", example="[YH996750000001]", required=true)
+    @ApiCloudField(value="要货单列表", example="[YH996750000001]", required=true)
     private List<String> requestOrderFids;
     @ApiCloudField(value="操作员", example="admin", required=true)
     private String operator;

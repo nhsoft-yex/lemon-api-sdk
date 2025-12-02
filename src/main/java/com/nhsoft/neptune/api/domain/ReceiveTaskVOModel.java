@@ -153,6 +153,6 @@ public class ReceiveTaskVOModel extends ApiCloudObject {
     private String warehouseBookOrderFid;
     @ApiCloudField(value="入库订单类型", example="供应商供货")
     private String warehouseBookType;
-    @ApiCloudField(value="收货任务详情")
+    @ApiCloudField(value="收货任务详情", example="")
     private List<ReceiveTaskDetailVOModel> wmsStdReceiveTaskDetailList;
 }

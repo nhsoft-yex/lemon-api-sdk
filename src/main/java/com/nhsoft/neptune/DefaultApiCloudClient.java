@@ -16,7 +16,7 @@ import java.util.function.Function;
 /**
  * @auther nhsoft.yex
  */
-public class DefaultApiCloudClient implements ApiCloudClient {
+public final class DefaultApiCloudClient implements ApiCloudClient {
     /**
      * 开放平台网关
      */

@@ -35,7 +35,7 @@ public class PayableOrderVOModel extends ApiCloudObject {
     private String invoiceNo;
     @ApiCloudField(value="是否为副单", example="true")
     private Boolean other;
-    @ApiCloudField(value="快速单据类型")
+    @ApiCloudField(value="快速单据类型", example="")
     private String quickOrderType;
     @ApiCloudField(value="销售员", example="销售员")
     private String salesman;
@@ -61,6 +61,6 @@ public class PayableOrderVOModel extends ApiCloudObject {
     private String remark;
     @ApiCloudField(value="关联单据号", example="PI2072010001270")
     private List<String> fids;
-    @ApiCloudField(value="应付单明细")
+    @ApiCloudField(value="应付单明细", example="")
     private List<PayableOrderDetailDTOModel> payableOrderDetails;
 }

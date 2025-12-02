@@ -39,7 +39,7 @@ public class WholesaleInnerOrderVOModel extends ApiCloudObject {
     private String innerOrderAuditTime;
     @ApiCloudField(value="截止日期", example="Sat Jan 01 08:00:00 CST 2022")
     private String innerOrderDeadline;
-    @ApiCloudField(value="申请备注")
+    @ApiCloudField(value="申请备注", example="")
     private String innerOrderMemo;
     @ApiCloudField(value="申请单类型", example="退货申请")
     private String innerOrderType;
@@ -47,7 +47,7 @@ public class WholesaleInnerOrderVOModel extends ApiCloudObject {
     private String innerOrderApprover;
     @ApiCloudField(value="批复时间")
     private String innerOrderApproveTime;
-    @ApiCloudField(value="批复备注")
+    @ApiCloudField(value="批复备注", example="")
     private String innerOrderApproveMemo;
     @ApiCloudField(value="最近修改时间")
     private String innerOrderLastEditTime;
@@ -59,6 +59,6 @@ public class WholesaleInnerOrderVOModel extends ApiCloudObject {
     private String wholesaleOrderFid;
     @ApiCloudField(value="关联退货单", example="4344990000318")
     private String wholesaleReturnFid;
-    @ApiCloudField(value="明细")
+    @ApiCloudField(value="明细", example="")
     private List<WholesaleInnerOrderDetailDTOModel> innerOrderDetails;
 }

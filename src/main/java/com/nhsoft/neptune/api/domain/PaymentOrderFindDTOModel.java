@@ -19,13 +19,13 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PaymentOrderFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="目标单位ID", example="R00001000909")
+    @ApiCloudField(value="单据编号", example="R00001000909")
     private String dstUnitId;
-    @ApiCloudField(value="源单位ID", example="R00001000909")
+    @ApiCloudField(value="单据编号", example="R00001000909")
     private String srcUnitId;
     @ApiCloudField(value="开始时间(yyyy-MM-dd)", example="2021-01-21", required=true)
     private String dateFrom;
-    @ApiCloudField(value="结束时间(yyyy-MM-dd)", example="2021-01-21", required=true)
+    @ApiCloudField(value="开始时间(yyyy-MM-dd)", example="2021-01-21", required=true)
     private String dateTo;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;

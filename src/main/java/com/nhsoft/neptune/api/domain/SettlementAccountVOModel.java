@@ -27,10 +27,10 @@ public class SettlementAccountVOModel extends ApiCloudObject {
     private String name;
     @ApiCloudField(value="group")
     private SettlementUnitGroupVOModel group;
-    @ApiCloudField(value="业务类型列表")
+    @ApiCloudField(value="资金结算组织", example="")
     private List<String> businessTypes;
-    @ApiCloudField(value="是否启用")
+    @ApiCloudField(value="是否启用", example="false")
     private Boolean enable;
-    @ApiCloudField(value="是否删除")
+    @ApiCloudField(value="是否删除", example="false")
     private Boolean deleted;
 }

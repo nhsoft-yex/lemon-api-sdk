@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CustomerPayOrderCancelDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="id", required=true)
+    @ApiCloudField(value="购买记录id", example="1", required=true)
     private Long id;
-    @ApiCloudField(value="operator", required=true)
+    @ApiCloudField(value="操作人", example="admin", required=true)
     private String operator;
 }

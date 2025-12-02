@@ -39,7 +39,7 @@ public class ReceiptOrderVOModel extends ApiCloudObject {
     private String srcGroupId;
     @ApiCloudField(value="业务类型", example="商品")
     private String businessType;
-    @ApiCloudField(value="快速生成单据类型")
+    @ApiCloudField(value="快速生成单据类型", example="")
     private String quickOrderType;
     @ApiCloudField(value="支付方式", example="现金")
     private String settlementType;
@@ -61,17 +61,17 @@ public class ReceiptOrderVOModel extends ApiCloudObject {
     private String auditAt;
     @ApiCloudField(value="审核人名称", example="管理员")
     private String auditByName;
-    @ApiCloudField(value="支付流水号")
+    @ApiCloudField(value="支付流水号", example="")
     private String payLogId;
     @ApiCloudField(value="收款冻结单号", example="2072")
     private String receiveApplyId;
-    @ApiCloudField(value="外部支付单据号")
+    @ApiCloudField(value="外部支付单据号", example="")
     private String receiptOrderId;
-    @ApiCloudField(value="应收单号")
+    @ApiCloudField(value="应收单号", example="")
     private String receivableOrderId;
     @ApiCloudField(value="描述", example="描述信息")
     private String description;
-    @ApiCloudField(value="关联单据号")
+    @ApiCloudField(value="关联单据号", example="")
     private String refBillNo;
     @ApiCloudField(value="金额锁定", example="true")
     private Boolean amountLock;
@@ -79,7 +79,7 @@ public class ReceiptOrderVOModel extends ApiCloudObject {
     private String requestOrderNo;
     @ApiCloudField(value="additional_information")
     private AdditionalInformationVOModel additionalInformation;
-    @ApiCloudField(value="支付明细")
+    @ApiCloudField(value="支付明细", example="")
     private List<ReceiptPayLogVOModel> payLogs;
     @ApiCloudField(value="fund_pay_log")
     private FundPayLogVOModel fundPayLog;

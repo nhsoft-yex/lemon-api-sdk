@@ -25,11 +25,11 @@ public class CardAntiDepositDTOModel extends ApiCloudObject {
     private Integer cardUserNum;
     @ApiCloudField(value="反存款金额", example="1.0", required=true)
     private BigDecimal depositMoney;
-    @ApiCloudField(value="支付方式", required=true)
+    @ApiCloudField(value="支付方式", example="", required=true)
     private String paymentType;
     @ApiCloudField(value="原存款流水号", example="207299203430590001", required=true)
     private String depositFid;
-    @ApiCloudField(value="三方编号")
+    @ApiCloudField(value="三方编号", example="")
     private String depositBillref;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String depositOperator;

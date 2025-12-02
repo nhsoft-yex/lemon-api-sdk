@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ClientSettlementVOModel;
 import java.util.*;
 
 /**
- * update_7请求类
+ * update_8请求类
  * 客户结算单修改
  */
 public class SettlementClientUpdateRequest implements ApiCloudRequest<ClientSettlementUpdateDTOModel, ClientSettlementVOModel> {

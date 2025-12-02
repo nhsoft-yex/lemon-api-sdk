@@ -20,6 +20,6 @@ public class CustomerPayRecordSupplementaryVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="付费会员计id")
     private Long purchaseRecordId;
-    @ApiCloudField(value="对应附属卡列表")
+    @ApiCloudField(value="对应附属卡列表", example="")
     private List<CustomerPayRecordVOModel> supplementaryRecords;
 }

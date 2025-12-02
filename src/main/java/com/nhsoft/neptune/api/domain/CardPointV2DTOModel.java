@@ -20,7 +20,7 @@ public class CardPointV2DTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
-    @ApiCloudField(value="查询分页大小(最大为100)", example="1", required=true)
+    @ApiCloudField(value="查询分页大小(最大为100)", example="10", required=true)
     private Integer pageSize;
     @ApiCloudField(value="卡编码", example="150200002")
     private Integer cardUserNum;
@@ -30,8 +30,8 @@ public class CardPointV2DTOModel extends ApiCloudObject {
     private String dateTo;
     @ApiCloudField(value="crm主键", example="2072992036300012")
     private String customerId;
-    @ApiCloudField(value="排序类型")
+    @ApiCloudField(value="排序类型", example="")
     private String sortField;
-    @ApiCloudField(value="排序字段")
+    @ApiCloudField(value="排序字段", example="")
     private String sortName;
 }

@@ -25,19 +25,19 @@ public class CustomerPayRecordFindDTOModel extends ApiCloudObject {
     private String start;
     @ApiCloudField(value="结束时间")
     private String end;
-    @ApiCloudField(value="是否退款")
+    @ApiCloudField(value="是否退款", example="false")
     private Boolean refund;
-    @ApiCloudField(value="是否线下")
+    @ApiCloudField(value="是否线下", example="false")
     private Boolean offline;
     @ApiCloudField(value="会员ID")
     private Long customerId;
-    @ApiCloudField(value="手机号")
+    @ApiCloudField(value="手机号", example="")
     private String phone;
     @ApiCloudField(value="等级ID")
     private Long levelId;
     @ApiCloudField(value="状态(0:正在生效中|1:未来生效|2:过期|3:禁用|10:待支付|11:关闭)", example="[0,1]")
     private List<Integer> states;
-    @ApiCloudField(value="过滤状态(0:正在生效中|1:未来生效|2:过期|3:禁用|10:待支付|11:关闭)")
+    @ApiCloudField(value="过滤状态(0:正在生效中|1:未来生效|2:过期|3:禁用|10:待支付|11:关闭)", example="")
     private List<Integer> excludeStates;
     @ApiCloudField(value="记录类型(SALE:销售|RENEWAL:续费|REPURCHASE:复购|REFUND:退款)", example="[SALE]")
     private List<String> recordTypes;

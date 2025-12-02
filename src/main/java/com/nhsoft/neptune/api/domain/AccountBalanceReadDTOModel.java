@@ -21,8 +21,8 @@ public class AccountBalanceReadDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="业务类别", example="商品")
     private List<String> businessTypes;
-    @ApiCloudField(value="目标门店用户中心id", example="99", required=true)
+    @ApiCloudField(value="目标门店用户中心id", example="93754", required=true)
     private String dstBranchId;
-    @ApiCloudField(value="源门店用户中心id", example="1", required=true)
+    @ApiCloudField(value="源门店用户中心id", example="93766", required=true)
     private String srcBranchId;
 }

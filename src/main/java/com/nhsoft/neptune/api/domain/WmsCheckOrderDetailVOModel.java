@@ -45,6 +45,6 @@ public class WmsCheckOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal useQty;
     @ApiCloudField(value="换算率", example="1.0")
     private BigDecimal useRate;
-    @ApiCloudField(value="批次明细")
+    @ApiCloudField(value="批次明细", example="")
     private List<WhsCheckOrderLnDetailVOModel> checkOrderLnDetails;
 }

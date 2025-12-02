@@ -3,6 +3,8 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
+import com.nhsoft.neptune.api.domain.InventoryFindDTOModel;
+
 import java.util.List;
 import com.nhsoft.neptune.api.domain.InventoryV2DTOModel;
 
@@ -14,9 +16,9 @@ import java.util.*;
  * findInventory请求类
  * 库存查询
  */
-public class InventoryInventoryFindRequest implements ApiCloudRequest<String, List<InventoryV2DTOModel>> {
+public class InventoryInventoryFindRequest implements ApiCloudRequest<InventoryFindDTOModel, List<InventoryV2DTOModel>> {
 
-    private String bizModel;
+    private InventoryFindDTOModel bizModel;
 
     @Override
     public String method() {
@@ -29,12 +31,12 @@ public class InventoryInventoryFindRequest implements ApiCloudRequest<String, Li
     }
 
     @Override
-    public String getBizModel() {
+    public InventoryFindDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(String bizModel) {
+    public void setBizModel(InventoryFindDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

@@ -41,8 +41,8 @@ public class ClientSettlementSaveDTOModel extends ApiCloudObject {
     private String settlementBank;
     @ApiCloudField(value="账号", example="123")
     private String settlementBankAccount;
-    @ApiCloudField(value="结算明细", required=true)
+    @ApiCloudField(value="结算明细", example="", required=true)
     private List<ClientSettlementDetailDTOModel> clientSettlementDetails;
-    @ApiCloudField(value="预收明细")
+    @ApiCloudField(value="预收明细", example="")
     private List<ClientPreSettlementDetailDTOModel> preSettlementDetails;
 }

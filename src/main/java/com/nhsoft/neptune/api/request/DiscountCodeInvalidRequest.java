@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.DiscountCodeOperateDTOModel;
 import java.util.*;
 
 /**
- * invalid请求类
+ * invalid_1请求类
  * 折扣码作废
  */
 public class DiscountCodeInvalidRequest implements ApiCloudRequest<DiscountCodeOperateDTOModel, Void> {

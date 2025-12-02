@@ -27,7 +27,7 @@ public class ReceivableOrderVOModel extends ApiCloudObject {
     private BigDecimal amount;
     @ApiCloudField(value="应收金额", example="100.0")
     private BigDecimal totalAmount;
-    @ApiCloudField(value="业务类型")
+    @ApiCloudField(value="业务类型", example="")
     private String businessType;
     @ApiCloudField(value="业务日期", example="2022-04-01 08:12:49")
     private String date;
@@ -37,7 +37,7 @@ public class ReceivableOrderVOModel extends ApiCloudObject {
     private String invoiceNo;
     @ApiCloudField(value="是否为副单", example="true")
     private Boolean other;
-    @ApiCloudField(value="快速单据类型")
+    @ApiCloudField(value="快速单据类型", example="")
     private String quickOrderType;
     @ApiCloudField(value="销售员", example="销售员")
     private String salesman;
@@ -61,8 +61,10 @@ public class ReceivableOrderVOModel extends ApiCloudObject {
     private String auditByName;
     @ApiCloudField(value="备注", example="备注信息")
     private String remark;
-    @ApiCloudField(value="应收单明细")
+    @ApiCloudField(value="应收单明细", example="")
     private List<ReceivableOrderDetailVOModel> receivableOrderDetails;
-    @ApiCloudField(value="收款计划")
+    @ApiCloudField(value="收款计划", example="")
     private List<ReceivableOrderDeadlineVOModel> receivableOrderDeadlines;
+    @ApiCloudField(value="ref_bill_nos")
+    private List<String> refBillNos;
 }

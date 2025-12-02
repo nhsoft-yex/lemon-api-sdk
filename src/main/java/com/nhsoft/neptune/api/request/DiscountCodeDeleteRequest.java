@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.DiscountCodeReadDTOModel;
 import java.util.*;
 
 /**
- * delete_2请求类
+ * delete_3请求类
  * 折扣码删除
  */
 public class DiscountCodeDeleteRequest implements ApiCloudRequest<DiscountCodeReadDTOModel, Void> {

@@ -21,6 +21,6 @@ public class BasicVariantGroupVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="分组ID")
     private Integer groupId;
-    @ApiCloudField(value="分组名称")
+    @ApiCloudField(value="分组名称", example="")
     private String groupName;
 }

@@ -20,7 +20,7 @@ public class CardUserNumDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
-    @ApiCloudField(value="查询分页大小(最大为100)", example="1", required=true)
+    @ApiCloudField(value="查询分页大小(最大为100)", example="10", required=true)
     private Integer pageSize;
     @ApiCloudField(value="会员卡编码", example="150200002")
     private Integer cardUserNum;

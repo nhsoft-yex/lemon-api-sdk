@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WmsOutBookCarrierFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="配送中心门店编码", example="99", required=true)
+    @ApiCloudField(value="配送中心门店编号", example="99", required=true)
     private String branchNum;
     @ApiCloudField(value="出库订单编号", example="[CD21139924113000001]", required=true)
     private List<String> outWarehouseBookOrderFids;

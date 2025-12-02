@@ -27,7 +27,7 @@ public class WmsReturnOrderSaveDTOModel extends ApiCloudObject {
     private String clientNum;
     @ApiCloudField(value="操作人", example="admin", required=true)
     private String operator;
-    @ApiCloudField(value="外部单号")
+    @ApiCloudField(value="外部单号", example="")
     private String outOrderFid;
     @ApiCloudField(value="店铺名称", example="测试店铺")
     private String shopName;
@@ -35,11 +35,11 @@ public class WmsReturnOrderSaveDTOModel extends ApiCloudObject {
     private String carrierNo;
     @ApiCloudField(value="订单来源", example="旺店通")
     private String orderSource;
-    @ApiCloudField(value="扩展字段1")
+    @ApiCloudField(value="扩展字段1", example="")
     private String extend1;
-    @ApiCloudField(value="扩展字段2")
+    @ApiCloudField(value="扩展字段2", example="")
     private String extend2;
-    @ApiCloudField(value="扩展字段3")
+    @ApiCloudField(value="扩展字段3", example="")
     private String extend3;
     @ApiCloudField(value="总金额", example="20.0")
     private BigDecimal totalMoney;
@@ -49,6 +49,6 @@ public class WmsReturnOrderSaveDTOModel extends ApiCloudObject {
     private String auditTime;
     @ApiCloudField(value="更新时间(不传，则默认当前系统时间)")
     private String updateTime;
-    @ApiCloudField(value="退货明细", required=true)
+    @ApiCloudField(value="退货明细", example="", required=true)
     private List<WmsReturnOrderSaveDetailDTOModel> details;
 }

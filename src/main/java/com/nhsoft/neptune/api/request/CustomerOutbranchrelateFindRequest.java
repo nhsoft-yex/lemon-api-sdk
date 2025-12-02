@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.OutBranchRelateVOModel;
 import java.util.*;
 
 /**
- * find_21请求类
+ * find_22请求类
  * 三方平台门店查询
  */
 public class CustomerOutbranchrelateFindRequest implements ApiCloudRequest<OutBranchRelateFindDTOModel, List<OutBranchRelateVOModel>> {

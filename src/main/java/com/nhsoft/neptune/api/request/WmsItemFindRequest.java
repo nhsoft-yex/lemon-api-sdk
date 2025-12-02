@@ -3,7 +3,7 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.ItemFindDTOModel;
+import com.nhsoft.neptune.api.domain.WmsItemFindDTOModel;
 
 import java.util.List;
 import com.nhsoft.neptune.api.domain.WmsItemVOModel;
@@ -16,9 +16,9 @@ import java.util.*;
  * find_7请求类
  * wms商品档案查询
  */
-public class WmsItemFindRequest implements ApiCloudRequest<ItemFindDTOModel, List<WmsItemVOModel>> {
+public class WmsItemFindRequest implements ApiCloudRequest<WmsItemFindDTOModel, List<WmsItemVOModel>> {
 
-    private ItemFindDTOModel bizModel;
+    private WmsItemFindDTOModel bizModel;
 
     @Override
     public String method() {
@@ -31,12 +31,12 @@ public class WmsItemFindRequest implements ApiCloudRequest<ItemFindDTOModel, Lis
     }
 
     @Override
-    public ItemFindDTOModel getBizModel() {
+    public WmsItemFindDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(ItemFindDTOModel bizModel) {
+    public void setBizModel(WmsItemFindDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

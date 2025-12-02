@@ -19,7 +19,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosItemVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品编号", example="102200551")
+    @ApiCloudField(value="商品编码", example="102200551")
     private Integer itemNum;
     @ApiCloudField(value="商品代码", example="00000004")
     private String itemCode;
@@ -123,9 +123,9 @@ public class PosItemVOModel extends ApiCloudObject {
     private BigDecimal itemWholesaleGross;
     @ApiCloudField(value="商品标签", example="[水果, 品牌]")
     private List<String> itemLabelNames;
-    @ApiCloudField(value="一品多码")
+    @ApiCloudField(value="一品多码", example="")
     private List<PosItemBarCodeVOModel> itemBars;
-    @ApiCloudField(value="组合明细")
+    @ApiCloudField(value="组合明细", example="")
     private List<PosItemCombineItemVOModel> posItemCombineItems;
     @ApiCloudField(value="是否允许门店调价 1 不允许 2 允许", example="1")
     private Integer itemPriceAdj;
@@ -137,7 +137,7 @@ public class PosItemVOModel extends ApiCloudObject {
     private Boolean itemNeedProductDate;
     @ApiCloudField(value="pos_item_commission")
     private PosItemCommissionVOModel posItemCommission;
-    @ApiCloudField(value="规格明细")
+    @ApiCloudField(value="规格明细", example="")
     private List<PosItemSpecVOModel> posItemSpecs;
     @ApiCloudField(value="允许门店退货", example="false")
     private Boolean itemTransferReturnFlag;
@@ -153,6 +153,6 @@ public class PosItemVOModel extends ApiCloudObject {
     private Boolean itemDiscounted;
     @ApiCloudField(value="要货不允许超过中心库存", example="true")
     private Boolean noStockNoRequest;
-    @ApiCloudField(value="是否加工商品")
+    @ApiCloudField(value="是否加工商品", example="false")
     private Boolean itemManufactureFlag;
 }

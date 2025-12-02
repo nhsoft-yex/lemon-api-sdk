@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class OrderFidDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单据编号", required=true)
+    @ApiCloudField(value="单据编号", example="", required=true)
     private String orderFid;
 }

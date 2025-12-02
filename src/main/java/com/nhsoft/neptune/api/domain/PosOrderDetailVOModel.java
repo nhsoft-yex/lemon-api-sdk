@@ -40,7 +40,7 @@ public class PosOrderDetailVOModel extends ApiCloudObject {
     private BigDecimal itemDiscount;
     @ApiCloudField(value="实际应收（小数点2位）", example="1.0")
     private BigDecimal itemPaymentMoney;
-    @ApiCloudField(value="商品状态(1:销售,2:囎送,4:退货,8:取消)", example="1")
+    @ApiCloudField(value="商品状态(1:销售,2:囎送,4:退货,8:取消,16:仅退款)", example="1")
     private Integer itemStateCode;
     @ApiCloudField(value="商品状态名称", example="销售")
     private String itemStateName;

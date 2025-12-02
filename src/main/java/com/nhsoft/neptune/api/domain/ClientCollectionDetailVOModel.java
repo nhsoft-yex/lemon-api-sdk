@@ -65,6 +65,6 @@ public class ClientCollectionDetailVOModel extends ApiCloudObject {
     private List<ClientSettlementDetailVOModel> settlementDetails;
     @ApiCloudField(value="预收明细", example="预收明细")
     private List<ClientPreSettlementDetailVOModel> preSettlementDetails;
-    @ApiCloudField(value="收款明细编号", example="1")
+    @ApiCloudField(value="明细编号", example="1")
     private Integer detailNum;
 }

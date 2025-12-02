@@ -75,6 +75,6 @@ public class WholesaleReturnDetailDTOModel extends ApiCloudObject {
     private BigDecimal detailOtherTaxRate;
     @ApiCloudField(value="业务系统未启用进销税项时税额（小数点2位）", example="1.0")
     private BigDecimal detailOtherTaxMoney;
-    @ApiCloudField(value="商品组合明细")
+    @ApiCloudField(value="商品组合明细", example="")
     private List<WholesaleOrderKitDetailDTOModel> orderKitDetails;
 }

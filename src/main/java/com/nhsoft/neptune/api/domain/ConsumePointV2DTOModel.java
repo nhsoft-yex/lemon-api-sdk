@@ -33,9 +33,9 @@ public class ConsumePointV2DTOModel extends ApiCloudObject {
     private BigDecimal consumePointPoint;
     @ApiCloudField(value="操作人", example="admin", required=true)
     private String consumePointOperator;
-    @ApiCloudField(value="备注")
+    @ApiCloudField(value="备注", example="")
     private String consumePointMemo;
-    @ApiCloudField(value="外部单号")
+    @ApiCloudField(value="外部单号", example="")
     private String consumePointRefBillNo;
     @ApiCloudField(value="商品编码", example="20720001")
     private Integer consumePointItemNum;
@@ -45,11 +45,11 @@ public class ConsumePointV2DTOModel extends ApiCloudObject {
     private BigDecimal consumePointAmount;
     @ApiCloudField(value="商品名称", example="测试商品")
     private String consumePointItemName;
-    @ApiCloudField(value="兑换类型(积分兑换物品|积分兑券|积分合并|积分转储值)", required=true)
+    @ApiCloudField(value="兑换类型(积分兑换物品|积分兑券|积分合并|积分转储值)", example="", required=true)
     private String consumePointType;
     @ApiCloudField(value="兑换金额")
     private BigDecimal consumePointPrice;
-    @ApiCloudField(value="积分兑换单号")
+    @ApiCloudField(value="积分兑换单号", example="")
     private String pointOrderFid;
     @ApiCloudField(value="是否同步线上（默认为false）", example="false")
     private Boolean online;

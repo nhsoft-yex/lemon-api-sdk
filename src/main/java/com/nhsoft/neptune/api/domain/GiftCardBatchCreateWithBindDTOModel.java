@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardBatchCreateWithBindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="列表信息", required=true)
+    @ApiCloudField(value="列表信息", example="", required=true)
     private List<GiftCardCreateWithBindDTOModel> list;
 }

@@ -51,6 +51,6 @@ public class BasicVariantVOModel extends ApiCloudObject {
     private String updatedAt;
     @ApiCloudField(value="item_info")
     private BasicVariantProductVOModel itemInfo;
-    @ApiCloudField(value="商品分组")
+    @ApiCloudField(value="商品分组", example="")
     private List<BasicVariantGroupVOModel> itemGroups;
 }

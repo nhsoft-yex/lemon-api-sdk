@@ -20,6 +20,6 @@ public class ApplyPosImageSaveDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="新品申请单编号", example="4344990000226", required=true)
     private String applyPositemFid;
-    @ApiCloudField(value="商品图片资源（字节流）", example="[B@3c01cfa1", required=true)
+    @ApiCloudField(value="商品图片资源（字节流）", example="[B@2609b277", required=true)
     private String applyPosImageResources;
 }

@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PosItemPolicyTemplateVOModel;
 import java.util.*;
 
 /**
- * read_21请求类
+ * read_22请求类
  * 促销商品模版读取
  */
 public class PolicyItemTemplateReadRequest implements ApiCloudRequest<PosItemPolicyTemplateReadDTOModel, PosItemPolicyTemplateVOModel> {

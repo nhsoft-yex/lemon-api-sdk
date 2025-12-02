@@ -25,6 +25,12 @@ public class MemberCouponTypeBasicInfoDTOModel extends ApiCloudObject {
     private String category;
     @ApiCloudField(value="券面值", example="10.0", required=true)
     private BigDecimal value;
+    @ApiCloudField(value="折扣率", example="0.5")
+    private BigDecimal discount;
+    @ApiCloudField(value="随机金额标记", example="true")
+    private Boolean randomValueFlag;
+    @ApiCloudField(value="随机金额面值券的最小面值", example="1.0")
+    private BigDecimal randomMiniValue;
     @ApiCloudField(value="使用门槛", example="3.5")
     private BigDecimal minimum;
     @ApiCloudField(value="售价", example="1.1")
@@ -35,6 +41,8 @@ public class MemberCouponTypeBasicInfoDTOModel extends ApiCloudObject {
     private BigDecimal subsidyMoney;
     @ApiCloudField(value="每日使用限制(不填无限制)", example="0")
     private Integer dailyConsumeLimit;
+    @ApiCloudField(value="商品券折扣比例", example="1.0")
+    private BigDecimal itemCouponDiscount;
     @ApiCloudField(value="券状态(true:启用|false:未启用)", example="true", required=true)
     private Boolean enable;
     @ApiCloudField(value="券分组编号", example="209500000001")
@@ -47,6 +55,6 @@ public class MemberCouponTypeBasicInfoDTOModel extends ApiCloudObject {
     private String memo;
     @ApiCloudField(value="活动门店", example="1")
     private List<Long> branchIds;
-    @ApiCloudField(value="exception_branch_ids")
+    @ApiCloudField(value="例外门店", example="[1]")
     private List<Long> exceptionBranchIds;
 }

@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SettlementAccountFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="组织类型", example="BRANCH", required=true)
+    @ApiCloudField(value="组织类型", example="BRANCH|SUPPLIER|CLIENT|DISTRIBUTOR", required=true)
     private String groupType;
-    @ApiCloudField(value="组织id", example="G00001004722")
+    @ApiCloudField(value="组织id", example="BRANCH|SUPPLIER|CLIENT|DISTRIBUTOR")
     private String groupId;
 }

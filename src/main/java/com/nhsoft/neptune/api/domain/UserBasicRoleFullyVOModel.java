@@ -25,9 +25,9 @@ public class UserBasicRoleFullyVOModel extends ApiCloudObject {
     private Integer id;
     @ApiCloudField(value="角色名称", example="管理员")
     private String name;
-    @ApiCloudField(value="权限信息")
+    @ApiCloudField(value="权限信息", example="")
     private List<UserCenterAuthorityVOModel> authorities;
-    @ApiCloudField(value="开放应用权限信息")
+    @ApiCloudField(value="开放应用权限信息", example="")
     private List<UserOpenAuthorityVOModel> openAuthorities;
     @ApiCloudField(value="合作伙伴类型(SUPPLIER|WHOLESALER|DISTRIBUTOR)", example="SUPPLIER")
     private String partnerType;

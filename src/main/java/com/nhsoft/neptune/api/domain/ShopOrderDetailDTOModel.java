@@ -19,15 +19,15 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ShopOrderDetailDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="商品名称", required=true)
+    @ApiCloudField(value="商品名称", example="", required=true)
     private String productName;
-    @ApiCloudField(value="商品ID", required=true)
+    @ApiCloudField(value="商品ID", example="", required=true)
     private String productId;
-    @ApiCloudField(value="规格ID", required=true)
+    @ApiCloudField(value="规格ID", example="", required=true)
     private String specId;
-    @ApiCloudField(value="ERP商品ID", required=true)
+    @ApiCloudField(value="ERP商品ID", example="", required=true)
     private String erpProductId;
-    @ApiCloudField(value="规格名称", required=true)
+    @ApiCloudField(value="规格名称", example="", required=true)
     private String specName;
     @ApiCloudField(value="单价(单位分)", example="100", required=true)
     private Integer price;
@@ -45,8 +45,8 @@ public class ShopOrderDetailDTOModel extends ApiCloudObject {
     private Integer paymentMoney;
     @ApiCloudField(value="商品数量", example="10", required=true)
     private Integer amount;
-    @ApiCloudField(value="图片列表，可为空")
+    @ApiCloudField(value="图片列表，可为空", example="")
     private String imageUrl;
-    @ApiCloudField(value="主图，可为空")
+    @ApiCloudField(value="主图，可为空", example="")
     private String thumbUrl;
 }

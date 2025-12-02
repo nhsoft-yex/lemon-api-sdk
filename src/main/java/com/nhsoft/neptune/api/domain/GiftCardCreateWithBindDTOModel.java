@@ -21,15 +21,15 @@ public class GiftCardCreateWithBindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="卡类型id", required=true)
     private Integer cardTypeId;
-    @ApiCloudField(value="背景图片", required=true)
+    @ApiCloudField(value="背景图片", example="", required=true)
     private String cardFaceBackground;
-    @ApiCloudField(value="用户id", required=true)
+    @ApiCloudField(value="用户id", example="", required=true)
     private String customerId;
     @ApiCloudField(value="面值", required=true)
     private BigDecimal value;
     @ApiCloudField(value="购买金额", required=true)
     private BigDecimal purchaseMoney;
-    @ApiCloudField(value="礼品卡卡号", required=true)
+    @ApiCloudField(value="礼品卡卡号", example="", required=true)
     private String cardPrintedNum;
     @ApiCloudField(value="到期日")
     private String expireTime;

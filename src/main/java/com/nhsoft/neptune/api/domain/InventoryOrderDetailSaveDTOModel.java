@@ -25,6 +25,6 @@ public class InventoryOrderDetailSaveDTOModel extends ApiCloudObject {
     private Integer amount;
     @ApiCloudField(value="商品编码", required=true)
     private Integer productId;
-    @ApiCloudField(value="规格id", required=true)
+    @ApiCloudField(value="规格id", example="", required=true)
     private String variantId;
 }
