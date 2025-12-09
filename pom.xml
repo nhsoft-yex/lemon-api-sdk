@@ -8,7 +8,7 @@
     <artifactId>lemon-apicloud-sdk</artifactId>
     <packaging>jar</packaging>
     <name>lemon-apicloud-sdk</name>
-    <version>2025-12-02.RELEASE</version>
+    <version>2025-12-09.RELEASE</version>
     <url>https://console.nhsoft.cn</url>
     <description>Lemon openapi SDK for Java
 
