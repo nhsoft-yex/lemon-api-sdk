@@ -21,7 +21,7 @@
 <dependency>
     <groupId>com.github.CNLemeng</groupId>
     <artifactId>lemon-apicloud-sdk</artifactId>
-    <version>2025-12-09.RELEASE</version>
+    <version>2025-12-16.RELEASE</version>
 </dependency>
 ```
 #### github引入依赖
@@ -48,7 +48,7 @@ maven的setting.xml需要增加github账户
 <dependency>
     <groupId>com.nhsoft.neptune</groupId>
     <artifactId>lemon-apicloud-sdk</artifactId>
-    <version>2025-12-09.RELEASE</version>
+    <version>2025-12-16.RELEASE</version>
 </dependency>
 ```
 
