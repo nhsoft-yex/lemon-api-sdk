@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/nhsoft-yex/lemon-api-sdk.svg)](https://jitpack.io/#nhsoft-yex/lemon-api-sdk)
+[![](https://jitpack.io/v/CNLemeng/lemon-apicloud-sdk.svg)](https://jitpack.io/#CNLemeng/lemon-apicloud-sdk)
 
 # lemon-api-sdk
 乐檬开放平台sdk for java，用于简化API调用。
