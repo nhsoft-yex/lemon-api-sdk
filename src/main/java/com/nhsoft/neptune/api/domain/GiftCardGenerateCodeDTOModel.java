@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardGenerateCodeDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="用户id", example="", required=true)
+    @ApiCloudField(value="用户id", required=true)
     private String customerId;
     @ApiCloudField(value="卡ID", required=true)
     private Long cardId;

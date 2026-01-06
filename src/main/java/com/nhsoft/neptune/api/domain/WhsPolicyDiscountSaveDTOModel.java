@@ -1,0 +1,61 @@
+package com.nhsoft.neptune.api.domain;
+
+import com.nhsoft.neptune.ApiCloudObject;
+import com.nhsoft.neptune.ApiCloudField;
+
+import java.math.BigDecimal;
+
+import java.util.*;
+
+import lombok.Data;
+
+import lombok.EqualsAndHashCode;
+
+/**
+ * WhsPolicyDiscountSaveDTO模型
+ */
+@Data
+@EqualsAndHashCode(callSuper = true)
+public class WhsPolicyDiscountSaveDTOModel extends ApiCloudObject {
+
+    @ApiCloudField(value="门店编号", example="99", required=true)
+    private Integer branchNum;
+    @ApiCloudField(value="批发超额折扣名称", example="全场9折")
+    private String wholesalePolicyDiscountName;
+    @ApiCloudField(value="批发额折扣备注", example="备注")
+    private String wholesalePolicyDiscountMemo;
+    @ApiCloudField(value="类型(超额折扣|超额减免)", example="超额减免", required=true)
+    private String wholesalePolicyDiscountType;
+    @ApiCloudField(value="折扣率(0-1)", example="0.9")
+    private BigDecimal wholesalePolicyDiscountDiscount;
+    @ApiCloudField(value="减免金额", example="10")
+    private BigDecimal wholesalePolicyDiscountDiscountMoney;
+    @ApiCloudField(value="消费金额", example="50", required=true)
+    private BigDecimal wholesalePolicyDiscountBillMoney;
+    @ApiCloudField(value="单笔最高减免金额", example="10")
+    private BigDecimal wholesalePolicyDiscountTotalDiscount;
+    @ApiCloudField(value="折扣类型(指定品牌|指定类别|全场)", example="指定品牌", required=true)
+    private String wholesalePolicyDiscountAssignedType;
+    @ApiCloudField(value="促销客户列表", example="[1]")
+    private List<String> wholesaleExcessGiftsAppliedClientIds;
+    @ApiCloudField(value="应用门店列表", example="[1]")
+    private List<Integer> wholesalePolicyDiscountAppliedBranchNums;
+    @ApiCloudField(value="商品类别代码(当折扣类型为指定类别，该字段必填)", example="[00A]")
+    private List<String> wholesalePolicyDiscountAssignedCategory;
+    @ApiCloudField(value="商品品牌(当折扣类型为指定品牌，该字段必填)", example="[可口可乐]")
+    private List<String> wholesalePolicyDiscountAssignedBrand;
+    @ApiCloudField(value="日期开始时间", example="2025-12-29 00:00:00", required=true)
+    private String wholesalePolicyDiscountDateFrom;
+    @ApiCloudField(value="日期结束时间", example="2025-12-29 23:59:59", required=true)
+    private String wholesalePolicyDiscountDateTo;
+    @ApiCloudField(value="操作人", example="admin", required=true)
+    private String wholesalePolicyDiscountOperator;
+    @ApiCloudField(value="客户范围(所有客户|指定客户|指定等级|指定分类)", example="指定等级", required=true)
+    private String clientRange;
+    @ApiCloudField(value="应用范围(商家开单、客户订货)", example="[客户订货]", required=true)
+    private List<String> wholesalePolicyDiscountApplicationScope;
+    @ApiCloudField(value="客户等级编号(当客户范围为指定等级，该字段生效)", example="[1]")
+    private List<Integer> clientGradeNums;
+    @ApiCloudField(value="客户类别代码列表(当客户范围为指定分类，该字段生效)", example="[0514]")
+    private List<String> clientTypeCodes;
+}

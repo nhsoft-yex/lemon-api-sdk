@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WholesalePriceAdjustApplyDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单据号", example="4344990000318", required=true)
+    @ApiCloudField(value="批发价调整单号", example="4344990000318", required=true)
     private String priceAdjustmentFid;
 }

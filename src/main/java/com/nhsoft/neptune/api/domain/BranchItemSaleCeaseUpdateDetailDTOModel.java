@@ -18,12 +18,12 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class BranchItemSaleCeaseUpdateDetailDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="门店编号", required=true)
+    @ApiCloudField(value="branch_num", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="商品编号", required=true)
+    @ApiCloudField(value="item_num", required=true)
     private Integer itemNum;
-    @ApiCloudField(value="商品分级编号")
+    @ApiCloudField(value="item_grade_num")
     private Integer itemGradeNum;
-    @ApiCloudField(value="停售标记", example="false")
+    @ApiCloudField(value="branch_item_sale_cease_flag")
     private Boolean branchItemSaleCeaseFlag;
 }

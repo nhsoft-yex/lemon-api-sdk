@@ -73,6 +73,6 @@ public class WmsOutOrderVOModel extends ApiCloudObject {
     private BigDecimal productVolume;
     @ApiCloudField(value="重量(kg)", example="2.0")
     private BigDecimal productWeight;
-    @ApiCloudField(value="出库订单明细", example="")
+    @ApiCloudField(value="出库单明细")
     private List<WmsOutOrderDetailVOModel> outWarehouseOrderDetails;
 }

@@ -21,13 +21,13 @@ public class PlatformCouponBillVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="ID")
     private Long id;
-    @ApiCloudField(value="券平台", example="")
+    @ApiCloudField(value="券平台")
     private String platform;
     @ApiCloudField(value="券类型ID")
     private Long couponTypeId;
-    @ApiCloudField(value="券类型名称", example="")
+    @ApiCloudField(value="券类型名称")
     private String couponTypeName;
-    @ApiCloudField(value="券码", example="")
+    @ApiCloudField(value="券码")
     private String identityCode;
     @ApiCloudField(value="券面值")
     private BigDecimal value;
@@ -35,13 +35,13 @@ public class PlatformCouponBillVOModel extends ApiCloudObject {
     private BigDecimal money;
     @ApiCloudField(value="核销时间")
     private String consumeAt;
-    @ApiCloudField(value="账单日期YYYY-MM-DD", example="")
+    @ApiCloudField(value="账单日期YYYY-MM-DD")
     private String billDate;
     @ApiCloudField(value="线下核销门店ID")
     private Integer consumeBranchNum;
-    @ApiCloudField(value="线下核销门店名称", example="")
+    @ApiCloudField(value="线下核销门店名称")
     private String consumeBranchName;
-    @ApiCloudField(value="关联单据号", example="")
+    @ApiCloudField(value="关联单据号")
     private String relateOrderNo;
     @ApiCloudField(value="券售价")
     private BigDecimal salePrice;
@@ -49,9 +49,9 @@ public class PlatformCouponBillVOModel extends ApiCloudObject {
     private BigDecimal billDifference;
     @ApiCloudField(value="补贴金额")
     private BigDecimal subsidyMoney;
-    @ApiCloudField(value="平台方核销门店ID", example="")
+    @ApiCloudField(value="平台方核销门店ID")
     private String platformConsumeBranchId;
-    @ApiCloudField(value="平台方订单id", example="")
+    @ApiCloudField(value="平台方订单id")
     private String platformOrderId;
     @ApiCloudField(value="原始金额，单位元")
     private BigDecimal original;

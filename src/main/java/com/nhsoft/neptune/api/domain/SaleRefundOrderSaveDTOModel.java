@@ -25,6 +25,6 @@ public class SaleRefundOrderSaveDTOModel extends ApiCloudObject {
     private Boolean manual;
     @ApiCloudField(value="订单类型", example="2023-01-01 10:00:00", required=true)
     private String reason;
-    @ApiCloudField(value="退款订单的商品详情", example="", required=true)
+    @ApiCloudField(value="退款订单的商品详情", required=true)
     private List<SaleRefundOrderSaveDetailDTOModel> refundOrderDetailSaves;
 }

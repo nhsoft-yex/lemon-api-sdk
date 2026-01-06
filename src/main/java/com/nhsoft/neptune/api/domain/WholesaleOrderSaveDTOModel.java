@@ -23,7 +23,7 @@ public class WholesaleOrderSaveDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="客户编号", example="0015005990000001", required=true)
     private String clientFid;
-    @ApiCloudField(value="配送方式", example="")
+    @ApiCloudField(value="配送方式")
     private String wholesaleOrderTransferType;
     @ApiCloudField(value="仓库编码", example="203000002", required=true)
     private Integer storehouseNum;
@@ -49,6 +49,6 @@ public class WholesaleOrderSaveDTOModel extends ApiCloudObject {
     private String wholesaleOrderExtend2;
     @ApiCloudField(value="扩展属性3", example="扩展属性3")
     private String wholesaleOrderExtend3;
-    @ApiCloudField(value="订单明细", example="", required=true)
+    @ApiCloudField(value="订单明细", required=true)
     private List<WholesaleOrderDetailSaveDTOModel> wholesaleOrderDetails;
 }

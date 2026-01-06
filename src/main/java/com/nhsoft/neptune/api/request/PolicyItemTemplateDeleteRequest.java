@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.PosItemPolicyTemplateReadDTOModel;
 import java.util.*;
 
 /**
- * update_17请求类
+ * update_18请求类
  * 促销商品模版删除
  */
 public class PolicyItemTemplateDeleteRequest implements ApiCloudRequest<PosItemPolicyTemplateReadDTOModel, Void> {

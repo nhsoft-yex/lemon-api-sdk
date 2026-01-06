@@ -18,14 +18,14 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class MessageSystemBoardSaveDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="内容", example="", required=true)
+    @ApiCloudField(value="message_board_content", required=true)
     private String messageBoardContent;
-    @ApiCloudField(value="主题", example="", required=true)
+    @ApiCloudField(value="message_board_subject", required=true)
     private String messageBoardSubject;
-    @ApiCloudField(value="发送人", example="", required=true)
+    @ApiCloudField(value="message_board_sender", required=true)
     private String messageBoardSender;
-    @ApiCloudField(value="门店编号", example="99", required=true)
+    @ApiCloudField(value="branch_num", example="99", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="用户编号", example="", required=true)
+    @ApiCloudField(value="app_user_nums", required=true)
     private List<Integer> appUserNums;
 }

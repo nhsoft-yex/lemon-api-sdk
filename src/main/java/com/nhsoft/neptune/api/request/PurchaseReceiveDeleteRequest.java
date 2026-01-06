@@ -3,17 +3,17 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.CustomerPayOrderCreateDTOModel;
+import com.nhsoft.neptune.api.domain.ReceiveOrderReadV2DTOModel;
 
 import java.util.*;
 
 /**
- * createPayOrder请求类
- * 创建付费会员订单
+ * receiveOrderDelete请求类
+ * 收货单删除
  */
-public class CustomerPurchaserecordCreateRequest implements ApiCloudRequest<CustomerPayOrderCreateDTOModel, Void> {
+public class PurchaseReceiveDeleteRequest implements ApiCloudRequest<ReceiveOrderReadV2DTOModel, Void> {
 
-    private CustomerPayOrderCreateDTOModel bizModel;
+    private ReceiveOrderReadV2DTOModel bizModel;
 
     @Override
     public String method() {
@@ -22,16 +22,16 @@ public class CustomerPurchaserecordCreateRequest implements ApiCloudRequest<Cust
 
     @Override
     public String getApiMethodName() {
-        return "/nhsoft.amazon.customer.purchaserecord.create";
+        return "/nhsoft.amazon.purchase.receive.delete";
     }
 
     @Override
-    public CustomerPayOrderCreateDTOModel getBizModel() {
+    public ReceiveOrderReadV2DTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(CustomerPayOrderCreateDTOModel bizModel) {
+    public void setBizModel(ReceiveOrderReadV2DTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

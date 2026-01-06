@@ -27,7 +27,7 @@ public class WmsOutBookSaveDTOModel extends ApiCloudObject {
     private String clientNum;
     @ApiCloudField(value="关联要货单号", example="YH2113132404220001")
     private String requestOrderFid;
-    @ApiCloudField(value="外部单号", example="")
+    @ApiCloudField(value="外部单号")
     private String outOrderFid;
     @ApiCloudField(value="操作人", example="admin", required=true)
     private String operator;
@@ -37,7 +37,7 @@ public class WmsOutBookSaveDTOModel extends ApiCloudObject {
     private String outWarehouseBookOrderDeliveryDate;
     @ApiCloudField(value="有效日期", example="Mon Apr 01 08:00:00 CST 2024")
     private String outWarehouseBookOrderDeadline;
-    @ApiCloudField(value="订单渠道类型", example="")
+    @ApiCloudField(value="订单渠道类型")
     private String orderChannelsType;
     @ApiCloudField(value="店铺名称", example="测试店铺")
     private String shopName;
@@ -45,27 +45,27 @@ public class WmsOutBookSaveDTOModel extends ApiCloudObject {
     private String carrierNo;
     @ApiCloudField(value="订单来源", example="旺店通")
     private String orderSource;
-    @ApiCloudField(value="扩展字段1", example="")
+    @ApiCloudField(value="扩展字段1")
     private String extend1;
-    @ApiCloudField(value="扩展字段2", example="")
+    @ApiCloudField(value="扩展字段2")
     private String extend2;
-    @ApiCloudField(value="扩展字段3", example="")
+    @ApiCloudField(value="扩展字段3")
     private String extend3;
-    @ApiCloudField(value="买家留言", example="")
+    @ApiCloudField(value="买家留言")
     private String receiveMemo;
-    @ApiCloudField(value="收件人联系电话", example="")
+    @ApiCloudField(value="收件人联系电话")
     private String receivePhone;
-    @ApiCloudField(value="收件人省", example="")
+    @ApiCloudField(value="收件人省")
     private String receiveProvince;
-    @ApiCloudField(value="收件人市", example="")
+    @ApiCloudField(value="收件人市")
     private String receiveCity;
-    @ApiCloudField(value="收件人区", example="")
+    @ApiCloudField(value="收件人区")
     private String receiveArea;
-    @ApiCloudField(value="收件人街道", example="")
+    @ApiCloudField(value="收件人街道")
     private String receiveTown;
-    @ApiCloudField(value="收件人地址", example="")
+    @ApiCloudField(value="收件人地址")
     private String receiveAddr;
-    @ApiCloudField(value="收件人", example="")
+    @ApiCloudField(value="收件人")
     private String receiver;
     @ApiCloudField(value="总金额", example="20.0")
     private BigDecimal totalMoney;
@@ -75,6 +75,6 @@ public class WmsOutBookSaveDTOModel extends ApiCloudObject {
     private String auditTime;
     @ApiCloudField(value="更新时间(不传，则默认当前系统时间)")
     private String updateTime;
-    @ApiCloudField(value="出库明细", example="", required=true)
+    @ApiCloudField(value="出库明细", required=true)
     private List<WmsOutBookSaveDetailDTOModel> details;
 }

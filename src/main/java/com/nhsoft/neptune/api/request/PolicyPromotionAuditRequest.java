@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyPromotionVOModel;
 import java.util.*;
 
 /**
- * audit_8请求类
+ * audit_9请求类
  * 促销特价审核
  */
 public class PolicyPromotionAuditRequest implements ApiCloudRequest<PolicyPromotionUpdateDTOModel, PolicyPromotionVOModel> {

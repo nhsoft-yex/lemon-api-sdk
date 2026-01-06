@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyMoneyVOModel;
 import java.util.*;
 
 /**
- * read_9请求类
+ * read_10请求类
  * 超额奖励读取
  */
 public class PolicyMoneyReadRequest implements ApiCloudRequest<PolicyOutBillNoReadDTOModel, PolicyMoneyVOModel> {

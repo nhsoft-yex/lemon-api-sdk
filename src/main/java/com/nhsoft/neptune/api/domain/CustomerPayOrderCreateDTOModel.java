@@ -18,27 +18,27 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CustomerPayOrderCreateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="手机号", example="17644219987", required=true)
+    @ApiCloudField(value="phone", required=true)
     private String phone;
     @ApiCloudField(value="购卡类别(MONTH:月卡,QUARTER:季卡,SEMI_ANNUAL:半年卡,ANNUAL:年卡,EXPERIENCE:体验卡,CUSTOM:自定义卡)", example="MONTH", required=true)
     private String kind;
-    @ApiCloudField(value="等级Id", example="1", required=true)
+    @ApiCloudField(value="level_id", required=true)
     private Long levelId;
-    @ApiCloudField(value="单据号", example="RF4220000011")
+    @ApiCloudField(value="bill_no")
     private String billNo;
-    @ApiCloudField(value="实收金额,元", example="100.0", required=true)
+    @ApiCloudField(value="received_amount", required=true)
     private BigDecimal receivedAmount;
-    @ApiCloudField(value="支付流水号", example="123456789")
+    @ApiCloudField(value="transaction_no")
     private String transactionNo;
-    @ApiCloudField(value="微信openid", example="123456789")
+    @ApiCloudField(value="openid")
     private String openid;
-    @ApiCloudField(value="支付方式", example="现金")
+    @ApiCloudField(value="payment_type")
     private String paymentType;
-    @ApiCloudField(value="推广人", example="张三")
+    @ApiCloudField(value="operator")
     private String operator;
-    @ApiCloudField(value="门店编号", example="10001", required=true)
+    @ApiCloudField(value="branch_num", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="到账门店编号", example="10001")
+    @ApiCloudField(value="account_branch_num")
     private Integer accountBranchNum;
     @ApiCloudField(value="会员来源(WECHAT_OFFICIAL|WECHAT_MP|WECHAT_PAY|ALIPAY_PAY|MANUAL|OFFLINE|WECOM|OMS|ALI_MP|TIK_TOK|H5)", example="WECHAT_OFFICIAL", required=true)
     private String source;

@@ -18,10 +18,10 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardUpdateExpireTimeDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="到期时间")
+    @ApiCloudField(value="expire_time")
     private String expireTime;
-    @ApiCloudField(value="礼品卡id", example="1", required=true)
+    @ApiCloudField(value="card_id", required=true)
     private Long cardId;
-    @ApiCloudField(value="操作人", example="admin", required=true)
+    @ApiCloudField(value="operator", required=true)
     private String operator;
 }

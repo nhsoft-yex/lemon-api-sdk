@@ -63,7 +63,7 @@ public class MemberDetailV1VOModel extends ApiCloudObject {
     private BigDecimal consumeMoney;
     @ApiCloudField(value="消费次数", example="1")
     private Integer consumeCount;
-    @ApiCloudField(value="线上会员信息", example="")
+    @ApiCloudField(value="线上会员信息")
     private List<OnlineMemberInfoModel> mercuryList;
     @ApiCloudField(value="会员更新时间")
     private String updatedAt;

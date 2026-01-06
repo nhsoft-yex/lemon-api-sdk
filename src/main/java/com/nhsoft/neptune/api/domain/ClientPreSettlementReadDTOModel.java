@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class ClientPreSettlementReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="客户预收单号", example="YC4344990002262", required=true)
+    @ApiCloudField(value="客户预收单号", example="YC4344010000010", required=true)
     private String preSettlementNo;
 }

@@ -23,7 +23,7 @@ public class WmsOutBookVOModel extends ApiCloudObject {
     private String outWarehouseBookOrderFid;
     @ApiCloudField(value="关联要货单号", example="YH2113132404220001")
     private String requestOrderFid;
-    @ApiCloudField(value="关联外部单号", example="")
+    @ApiCloudField(value="关联外部单号")
     private String outOrderFid;
     @ApiCloudField(value="配送中心门店编码", example="99")
     private Integer branchNum;
@@ -65,6 +65,6 @@ public class WmsOutBookVOModel extends ApiCloudObject {
     private List<String> outWarehouseFids;
     @ApiCloudField(value="快递单号", example="433957556526508")
     private String expressFid;
-    @ApiCloudField(value="出库订单明细", example="")
+    @ApiCloudField(value="出库订单明细")
     private List<WmsOutBookDetailVOModel> outWarehouseBookOrderDetails;
 }

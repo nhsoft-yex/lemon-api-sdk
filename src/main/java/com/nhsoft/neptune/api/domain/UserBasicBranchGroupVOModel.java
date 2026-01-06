@@ -29,8 +29,8 @@ public class UserBasicBranchGroupVOModel extends ApiCloudObject {
     private List<Integer> branchIds;
     @ApiCloudField(value="门店区域ID列表", example="[1]")
     private List<Integer> branchRegionIds;
-    @ApiCloudField(value="门店列表", example="")
+    @ApiCloudField(value="门店列表")
     private List<UserBasicBranchVOModel> branches;
-    @ApiCloudField(value="门店区域列表", example="")
+    @ApiCloudField(value="门店区域列表")
     private List<UserBasicBranchRegionVOModel> branchRegions;
 }

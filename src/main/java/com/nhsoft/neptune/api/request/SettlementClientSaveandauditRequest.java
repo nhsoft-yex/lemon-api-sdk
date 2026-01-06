@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ClientSettlementVOModel;
 import java.util.*;
 
 /**
- * saveAndAudit_3请求类
+ * saveAndAudit_4请求类
  * 客户结算单新增并审核
  */
 public class SettlementClientSaveandauditRequest implements ApiCloudRequest<ClientSettlementSaveDTOModel, ClientSettlementVOModel> {

@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WholesaleOrderReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="批发销售单号", example="WB2030990000008")
+    @ApiCloudField(value="批发销售单号", example="WO2030990000008")
     private String wholesaleOrderFid;
-    @ApiCloudField(value="批发销售单外部单号", example="WB2030990000008")
+    @ApiCloudField(value="批发销售单外部单号", example="WO2030990000008")
     private String wholesaleOrderOutBillNo;
 }

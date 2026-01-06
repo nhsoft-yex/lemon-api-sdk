@@ -35,8 +35,8 @@ public class PaymentOrderAuditDTOModel extends ApiCloudObject {
     private String settlementType;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String operator;
-    @ApiCloudField(value="退款收款单支付流水号", example="")
+    @ApiCloudField(value="退款收款单支付流水号")
     private String originOrderNo;
-    @ApiCloudField(value="目标合作伙伴ID", example="")
+    @ApiCloudField(value="目标合作伙伴ID")
     private String dstPartnerId;
 }

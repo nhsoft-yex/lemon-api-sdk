@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.ClientCollectionVOModel;
 import java.util.*;
 
 /**
- * find_36请求类
+ * find_39请求类
  * 客户收款单查询
  */
 public class ClientCollectionFindRequest implements ApiCloudRequest<ClientCollectionFindDTOModel, List<ClientCollectionVOModel>> {

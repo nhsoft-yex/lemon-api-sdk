@@ -67,6 +67,8 @@ public class PosClientVOModel extends ApiCloudObject {
     private String clientSettlementModel;
     @ApiCloudField(value="是否启用信用额度(1启用)", example="1")
     private Integer clientCreditEnable;
+    @ApiCloudField(value="建档时间")
+    private String clientCreateTime;
     @ApiCloudField(value="信用额度", example="100.0")
     private BigDecimal clientCreditLimit;
     @ApiCloudField(value="超额后处理方式  2：禁止签单 1 仅提醒,不传表示允许 ", example="1")
@@ -97,6 +99,6 @@ public class PosClientVOModel extends ApiCloudObject {
     private String clientParentFid;
     @ApiCloudField(value="用户中心合作伙伴id")
     private Long userCenterPartnerId;
-    @ApiCloudField(value="客户标签列表(仅读取接口返回)", example="")
+    @ApiCloudField(value="客户标签列表(仅读取接口返回)")
     private List<PosClientLabelVOModel> clientLabels;
 }

@@ -59,6 +59,6 @@ public class WholesaleReturnVOModel extends ApiCloudObject {
     private BigDecimal wholesaleReturnDiscountMoney;
     @ApiCloudField(value="已付金额", example="240.0")
     private BigDecimal wholesaleReturnPaidMoney;
-    @ApiCloudField(value="订单明细", example="")
+    @ApiCloudField(value="订单明细")
     private List<WholesaleReturnDetailDTOModel> wholesaleReturnDetails;
 }

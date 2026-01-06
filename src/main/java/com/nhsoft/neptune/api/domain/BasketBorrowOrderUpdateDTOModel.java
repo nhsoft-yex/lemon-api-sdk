@@ -33,6 +33,6 @@ public class BasketBorrowOrderUpdateDTOModel extends ApiCloudObject {
     private String containerUse;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String operator;
-    @ApiCloudField(value="容器明细", example="", required=true)
+    @ApiCloudField(value="容器明细", required=true)
     private List<BasketBorrowOrderSaveDetailDTOModel> details;
 }

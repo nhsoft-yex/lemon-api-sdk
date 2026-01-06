@@ -33,7 +33,7 @@ public class CardUserLogVOModel extends ApiCloudObject {
     private String cardUserLogBranchName;
     @ApiCloudField(value="备注", example="备注信息")
     private String cardUserLogMemo;
-    @ApiCloudField(value="详情", example="")
+    @ApiCloudField(value="详情")
     private String cardUserLogContext;
     @ApiCloudField(value="班次号", example="22001")
     private Integer shiftTableNum;

@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ProcessingPlanOrderV2DTOModel;
 import java.util.*;
 
 /**
- * save_10请求类
+ * save_11请求类
  * 生产计划单新增
  */
 public class ProcessingPlanSaveRequest implements ApiCloudRequest<ProcessingPlanSaveDTOModel, ProcessingPlanOrderV2DTOModel> {

@@ -18,9 +18,9 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class CustomerMarketingSettlementDetailFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="结算id", required=true)
+    @ApiCloudField(value="结算id", example="1", required=true)
     private Long settlementId;
-    @ApiCloudField(value="次卡结算的结算类型(购买记录|消费记录|退款记录|退货记录)", example="", required=true)
+    @ApiCloudField(value="次卡结算的结算类型(购买记录|消费记录|退款记录|退货记录)", example="购买记录", required=true)
     private String exchangeCardSettlementScope;
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;

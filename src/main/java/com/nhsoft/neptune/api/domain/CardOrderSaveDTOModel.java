@@ -47,6 +47,6 @@ public class CardOrderSaveDTOModel extends ApiCloudObject {
     private String cardOrderType;
     @ApiCloudField(value="备注", example="备注")
     private String cardOrderMemo;
-    @ApiCloudField(value="卡明细", example="", required=true)
+    @ApiCloudField(value="卡明细", required=true)
     private List<CardOrderSaveDetailDTOModel> cardOrderDetails;
 }

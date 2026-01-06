@@ -25,16 +25,16 @@ public class GiftCardCreateWithBindVOModel extends ApiCloudObject {
     private Long cardId;
     @ApiCloudField(value="到期日")
     private String expireTime;
-    @ApiCloudField(value="背景图片", example="", required=true)
+    @ApiCloudField(value="背景图片", required=true)
     private String cardFaceBackground;
-    @ApiCloudField(value="卡面编码", example="", required=true)
+    @ApiCloudField(value="卡面编码", required=true)
     private String cardPrintedNum;
     @ApiCloudField(value="状态", required=true)
     private Integer stateCode;
     @ApiCloudField(value="卡余额", required=true)
     private BigDecimal balance;
-    @ApiCloudField(value="用户手机号", example="")
+    @ApiCloudField(value="用户手机号")
     private String phone;
-    @ApiCloudField(value="卡密码", example="")
+    @ApiCloudField(value="卡密码")
     private String cardPassword;
 }

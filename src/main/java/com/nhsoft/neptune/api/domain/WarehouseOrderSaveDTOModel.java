@@ -47,7 +47,7 @@ public class WarehouseOrderSaveDTOModel extends ApiCloudObject {
     private String warehouseOrderLastEditTime;
     @ApiCloudField(value="入库订单编号列表", example="[RD21139924098000013]")
     private List<String> warehouseBookFids;
-    @ApiCloudField(value="details", example="明细", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<WarehouseOrderSaveDetailDTOModel> details;
     @ApiCloudField(value="入库时间", example="Tue Apr 02 08:00:00 CST 2024", required=true)
     private String warehouseOrderDate;

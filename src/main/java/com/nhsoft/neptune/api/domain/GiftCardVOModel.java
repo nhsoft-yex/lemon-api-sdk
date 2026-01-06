@@ -21,7 +21,7 @@ public class GiftCardVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="到期日", example="Sat Aug 31 08:00:00 CST 2024")
     private String expireTime;
-    @ApiCloudField(value="卡面背景", example="")
+    @ApiCloudField(value="卡面背景")
     private String cardFaceBackground;
     @ApiCloudField(value="表面卡号", example="209500000048000010")
     private String cardPrintedNum;

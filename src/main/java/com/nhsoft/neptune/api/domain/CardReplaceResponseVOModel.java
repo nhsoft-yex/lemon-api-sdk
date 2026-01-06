@@ -43,7 +43,7 @@ public class CardReplaceResponseVOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="换卡门店名称", example="测试门店1")
     private String replaceCardBranchName;
-    @ApiCloudField(value="换卡备注", example="")
+    @ApiCloudField(value="换卡备注")
     private String replaceCardMemo;
     @ApiCloudField(value="换卡支付方式编码", example="1")
     private Integer replaceCardPaymentType;

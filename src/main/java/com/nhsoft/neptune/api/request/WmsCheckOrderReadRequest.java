@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WmsCheckOrderVOModel;
 import java.util.*;
 
 /**
- * read_17请求类
+ * read_18请求类
  * 盘点单读取
  */
 public class WmsCheckOrderReadRequest implements ApiCloudRequest<WmsCheckOrderReadDTOModel, WmsCheckOrderVOModel> {

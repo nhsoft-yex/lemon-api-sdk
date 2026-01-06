@@ -21,7 +21,7 @@ public class BasketBorrowOrderDetailVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="容器编码")
     private Integer containerNum;
-    @ApiCloudField(value="容器名称", example="")
+    @ApiCloudField(value="容器名称")
     private String containerName;
     @ApiCloudField(value="数量")
     private BigDecimal qty;

@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.CheckPlanVOModel;
 import java.util.*;
 
 /**
- * read_16请求类
+ * read_17请求类
  * 盘点任务读取
  */
 public class WmsCheckPlanReadRequest implements ApiCloudRequest<CheckPlanReadDTOModel, CheckPlanVOModel> {

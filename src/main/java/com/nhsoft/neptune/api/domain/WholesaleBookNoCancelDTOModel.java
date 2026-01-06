@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WholesaleBookNoCancelDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="批发订单号", example="WB2030990000008", required=true)
+    @ApiCloudField(value="批发订单号", example="WB2030990000004", required=true)
     private String wholesaleBookFid;
     @ApiCloudField(value="是否使用", example="true", required=true)
     private Boolean using;

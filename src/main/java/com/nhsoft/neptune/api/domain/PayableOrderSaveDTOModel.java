@@ -39,6 +39,6 @@ public class PayableOrderSaveDTOModel extends ApiCloudObject {
     private String refBillNo;
     @ApiCloudField(value="金额", example="100.0", required=true)
     private BigDecimal totalAmount;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<PayableOrderDetailSaveDTOModel> orderDetails;
 }

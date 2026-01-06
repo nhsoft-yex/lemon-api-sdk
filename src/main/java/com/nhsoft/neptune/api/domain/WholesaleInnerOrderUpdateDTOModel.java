@@ -23,14 +23,14 @@ public class WholesaleInnerOrderUpdateDTOModel extends ApiCloudObject {
     private String innerOrderFid;
     @ApiCloudField(value="截止日期", example="Sat Jan 01 08:00:00 CST 2022", required=true)
     private String innerOrderDeadline;
-    @ApiCloudField(value="申请备注", example="")
+    @ApiCloudField(value="申请备注")
     private String innerOrderMemo;
-    @ApiCloudField(value="操作人", example="", required=true)
+    @ApiCloudField(value="操作人", required=true)
     private String innerOrderOperator;
     @ApiCloudField(value="原因", example="质量", required=true)
     private String innerOrderReason;
     @ApiCloudField(value="关联销售单", example="4344990000318")
     private String wholesaleOrderFid;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<WholesaleInnerOrderDetailSaveDTOModel> wholesaleInnerOrderDetails;
 }

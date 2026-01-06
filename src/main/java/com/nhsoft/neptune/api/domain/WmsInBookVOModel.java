@@ -21,7 +21,7 @@ public class WmsInBookVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="入库订单号", example="CD21139924113000001")
     private String inWarehouseBookOrderFid;
-    @ApiCloudField(value="关联外部单号", example="")
+    @ApiCloudField(value="关联外部单号")
     private String outOrderFid;
     @ApiCloudField(value="配送中心门店编码", example="99")
     private Integer branchNum;
@@ -57,6 +57,6 @@ public class WmsInBookVOModel extends ApiCloudObject {
     private String inWarehouseBookOrderDeadline;
     @ApiCloudField(value="备注", example="测试")
     private String inWarehouseBookOrderMemo;
-    @ApiCloudField(value="入库订单明细", example="")
+    @ApiCloudField(value="入库订单明细")
     private List<WmsInBookDetailVOModel> inWarehouseBookOrderDetails;
 }

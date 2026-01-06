@@ -13,6 +13,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * PosClientGradeVO模型
+ * 客户等级列表
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

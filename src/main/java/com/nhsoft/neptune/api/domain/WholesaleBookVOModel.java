@@ -59,7 +59,7 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private String wholesaleBookExpectTime;
     @ApiCloudField(value="运费", example="2.0")
     private BigDecimal wholesaleBookPostFee;
-    @ApiCloudField(value="订单明细", example="")
+    @ApiCloudField(value="订单明细")
     private List<WholesaleBookDetailDTOModel> wholesaleBookDetails;
     @ApiCloudField(value="付款方式", example="现金")
     private String wholesaleBookPayType;
@@ -73,9 +73,9 @@ public class WholesaleBookVOModel extends ApiCloudObject {
     private Boolean wholesaleBookEnablePayConfirm;
     @ApiCloudField(value="模板id(read接口返回)")
     private Long clientRequestTimeFoodId;
-    @ApiCloudField(value="模板名称(read接口返回)", example="")
+    @ApiCloudField(value="模板名称(read接口返回)")
     private String clientRequestTimeFoodName;
-    @ApiCloudField(value="配送方式", example="")
+    @ApiCloudField(value="配送方式")
     private String wholesaleBookTransferType;
     @ApiCloudField(value="付款确认时间")
     private String wholesaleBookPayTime;

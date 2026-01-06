@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.TicketSendDetailSimpleDTOModel;
 import java.util.*;
 
 /**
- * find_35请求类
+ * find_38请求类
  * 根据会员读取(有效，已使用，已过期)消费券
  */
 public class CouponCustomerv2Request implements ApiCloudRequest<CardCouponCustomerFindDTOModel, List<TicketSendDetailSimpleDTOModel>> {

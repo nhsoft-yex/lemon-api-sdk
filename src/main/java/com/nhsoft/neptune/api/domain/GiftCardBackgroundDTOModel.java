@@ -19,6 +19,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardBackgroundDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="背景图片url", example="", required=true)
+    @ApiCloudField(value="背景图片url", required=true)
     private String url;
 }

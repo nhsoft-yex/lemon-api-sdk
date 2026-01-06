@@ -29,8 +29,8 @@ public class PointConvertDTOModel extends ApiCloudObject {
     private Integer pointConverItemNum;
     @ApiCloudField(value="关联商品名称", example="测试商品")
     private String pointConvertItemName;
-    @ApiCloudField(value="应用门店列表", example="")
+    @ApiCloudField(value="应用门店列表")
     private List<BranchSimpleDTOModel> appliedBranchs;
-    @ApiCloudField(value="应用于所有门店(该字段为true时，applied_branchs为空集合)", example="false")
+    @ApiCloudField(value="应用于所有门店(该字段为true时，applied_branchs为空集合)")
     private Boolean applyAllBranch;
 }

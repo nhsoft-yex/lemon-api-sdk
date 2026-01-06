@@ -37,9 +37,9 @@ public class UserCenterUserDetailVOModel extends ApiCloudObject {
     private String name;
     @ApiCloudField(value="用户手机号", example="17894444110")
     private String phone;
-    @ApiCloudField(value="角色类型", example="")
+    @ApiCloudField(value="角色类型")
     private List<UserCenterSimpleRoleDTOModel> simpleRoles;
-    @ApiCloudField(value="权限信息", example="")
+    @ApiCloudField(value="权限信息")
     private List<String> authorities;
     @ApiCloudField(value="管理仓库列表", example="[996755017]")
     private List<Integer> storehouseNums;

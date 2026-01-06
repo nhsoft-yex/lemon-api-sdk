@@ -13,7 +13,7 @@ import com.nhsoft.neptune.api.domain.BaseItemImageVOModel;
 import java.util.*;
 
 /**
- * find_16请求类
+ * find_17请求类
  * 商品档案图片查询
  */
 public class BaseBasicItemImageFindRequest implements ApiCloudRequest<BaseItemImageFindDTOModel, List<BaseItemImageVOModel>> {

@@ -21,8 +21,8 @@ public class WholesaleInnerOrderRejectDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="单据编号", example="4344990000318", required=true)
     private String innerOrderFid;
-    @ApiCloudField(value="操作人", example="", required=true)
+    @ApiCloudField(value="操作人", required=true)
     private String innerOrderOperator;
-    @ApiCloudField(value="批复备注", example="")
+    @ApiCloudField(value="批复备注")
     private String innerOrderApproveMemo;
 }

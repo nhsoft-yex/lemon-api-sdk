@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WarehouseOrderVOModel;
 import java.util.*;
 
 /**
- * read_11请求类
+ * read_12请求类
  * 入库单读取
  */
 public class WmsWarehouseOrderReadRequest implements ApiCloudRequest<WarehouseOrderReadDTOModel, WarehouseOrderVOModel> {

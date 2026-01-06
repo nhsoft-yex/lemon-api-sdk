@@ -29,7 +29,7 @@ public class ReceivableOrderDetailVOModel extends ApiCloudObject {
     private String itemCode;
     @ApiCloudField(value="商品条码", example="70592")
     private String itemBarcode;
-    @ApiCloudField(value="物料税收编号", example="")
+    @ApiCloudField(value="物料税收编号")
     private String itemInvoiceCode;
     @ApiCloudField(value="规格", example="10公斤/箱")
     private String itemSpec;

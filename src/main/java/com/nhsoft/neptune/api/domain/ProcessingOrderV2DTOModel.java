@@ -60,4 +60,6 @@ public class ProcessingOrderV2DTOModel extends ApiCloudObject {
     private BigDecimal processingPlanOrderDetailQty;
     @ApiCloudField(value="加工原料明细", example="")
     private List<ProcessingOrderDetailV2DTOModel> processingOrderDetails;
+    @ApiCloudField(value="processing_order_item")
+    private ProcessingOrderItemDetailVOModel processingOrderItem;
 }

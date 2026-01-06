@@ -29,39 +29,39 @@ public class SaleOrderV2VOModel extends ApiCloudObject {
     private Long branchId;
     @ApiCloudField(value="下单门店编码")
     private Integer branchNum;
-    @ApiCloudField(value="下单门店代码", example="")
+    @ApiCloudField(value="下单门店代码")
     private String branchCode;
-    @ApiCloudField(value="下单门店名称", example="")
+    @ApiCloudField(value="下单门店名称")
     private String branchName;
     @ApiCloudField(value="提货门店ID")
     private Long pickBranchId;
     @ApiCloudField(value="提货门店编码")
     private Integer pickBranchNum;
-    @ApiCloudField(value="提货门店代码", example="")
+    @ApiCloudField(value="提货门店代码")
     private String pickBranchCode;
-    @ApiCloudField(value="提货门店名称", example="")
+    @ApiCloudField(value="提货门店名称")
     private String pickBranchName;
-    @ApiCloudField(value="提货门店地址", example="")
+    @ApiCloudField(value="提货门店地址")
     private String pickBranchAddress;
-    @ApiCloudField(value="提货地址", example="")
+    @ApiCloudField(value="提货地址")
     private String pickAddress;
-    @ApiCloudField(value="提货方式", example="")
+    @ApiCloudField(value="提货方式")
     private String pickType;
-    @ApiCloudField(value="收件人名称", example="")
+    @ApiCloudField(value="收件人名称")
     private String pickName;
-    @ApiCloudField(value="收件人手机", example="")
+    @ApiCloudField(value="收件人手机")
     private String pickPhone;
     @ApiCloudField(value="会员ID")
     private Long memberId;
-    @ApiCloudField(value="会员昵称", example="")
+    @ApiCloudField(value="会员昵称")
     private String memberName;
-    @ApiCloudField(value="会员姓名", example="")
+    @ApiCloudField(value="会员姓名")
     private String memberName2;
-    @ApiCloudField(value="会员手机号", example="")
+    @ApiCloudField(value="会员手机号")
     private String memberPhone;
-    @ApiCloudField(value="支付方式列表", example="")
+    @ApiCloudField(value="支付方式列表")
     private List<String> payTypes;
-    @ApiCloudField(value="订单类型", example="")
+    @ApiCloudField(value="订单类型")
     private String orderType;
     @ApiCloudField(value="使用积分")
     private BigDecimal point;
@@ -83,18 +83,18 @@ public class SaleOrderV2VOModel extends ApiCloudObject {
     private BigDecimal receiptMoney;
     @ApiCloudField(value="退款金额")
     private BigDecimal refundMoney;
-    @ApiCloudField(value="订单明细", example="")
+    @ApiCloudField(value="订单明细")
     private List<SaleOrderDetailV2VOModel> orderDetails;
-    @ApiCloudField(value="创建时间", example="")
+    @ApiCloudField(value="创建时间")
     private String createdAt;
-    @ApiCloudField(value="关闭时间", example="")
+    @ApiCloudField(value="关闭时间")
     private String closedAt;
-    @ApiCloudField(value="付款时间", example="")
+    @ApiCloudField(value="付款时间")
     private String paidAt;
-    @ApiCloudField(value="提货开始时间", example="")
+    @ApiCloudField(value="提货开始时间")
     private String pickStart;
-    @ApiCloudField(value="提货结束时间", example="")
+    @ApiCloudField(value="提货结束时间")
     private String pickEnd;
-    @ApiCloudField(value="完成时间", example="")
+    @ApiCloudField(value="完成时间")
     private String finishedAt;
 }

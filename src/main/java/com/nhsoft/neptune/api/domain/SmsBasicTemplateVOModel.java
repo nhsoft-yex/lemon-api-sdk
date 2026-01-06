@@ -25,7 +25,7 @@ public class SmsBasicTemplateVOModel extends ApiCloudObject {
     private String text;
     @ApiCloudField(value="模板名称", example="零售行业")
     private String title;
-    @ApiCloudField(value="状态(可用，审核中，不可用，未知)", example="")
+    @ApiCloudField(value="状态(可用，审核中，不可用，未知)")
     private String status;
     @ApiCloudField(value="短信类型(验证码，短信通知，推广短信)", example="短信通知")
     private String type;

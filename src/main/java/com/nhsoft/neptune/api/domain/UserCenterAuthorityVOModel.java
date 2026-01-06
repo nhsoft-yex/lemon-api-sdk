@@ -25,7 +25,7 @@ public class UserCenterAuthorityVOModel extends ApiCloudObject {
     private String appType;
     @ApiCloudField(value="创建时间")
     private String createdAt;
-    @ApiCloudField(value="模块", example="")
+    @ApiCloudField(value="模块")
     private String module;
     @ApiCloudField(value="名称", example="商城-总部管理-总库存管理-新增")
     private String name;

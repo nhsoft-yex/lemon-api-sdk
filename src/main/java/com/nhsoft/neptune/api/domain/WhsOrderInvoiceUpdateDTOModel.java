@@ -18,14 +18,14 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WhsOrderInvoiceUpdateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="单据号", example="WO2030990000008", required=true)
+    @ApiCloudField(value="单据号", required=true)
     private String fid;
-    @ApiCloudField(value="发票号", example="123456789", required=true)
+    @ApiCloudField(value="发票号", required=true)
     private String invoiceNo;
-    @ApiCloudField(value="发票状态")
+    @ApiCloudField(value="发票状态 0=失败 1=成功 2=开票中")
     private Integer ticketStatus;
-    @ApiCloudField(value="单据状态(ISSUED|FAIL_ISSUED|ISSUING|NOT_ISSUED|CANCELLED)", example="ISSUED")
+    @ApiCloudField(value="单据状态")
     private String whsOrderDocumentStatus;
-    @ApiCloudField(value="发票链接", example="https://www.baidu.com")
+    @ApiCloudField(value="发票链接")
     private String einvoiceUrl;
 }

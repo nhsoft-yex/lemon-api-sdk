@@ -21,7 +21,7 @@ public class GiftCardConsumeRecordFindDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="查询页码", example="1", required=true)
     private Integer pageNo;
-    @ApiCloudField(value="查询分页大小(最大为100)", example="10", required=true)
+    @ApiCloudField(value="查询分页大小(最大为100)", example="1", required=true)
     private Integer pageSize;
     @ApiCloudField(value="开始时间", required=true)
     private String dateFrom;

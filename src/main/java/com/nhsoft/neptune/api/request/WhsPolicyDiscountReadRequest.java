@@ -3,13 +3,15 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
+import com.nhsoft.neptune.api.domain.WhsPolicyDiscountVOModel;
+
 import java.util.*;
 
 /**
- * cardCreateQrcode请求类
- * 根据会员卡生成付款码
+ * read_19请求类
+ * 批发超额折扣读取
  */
-public class CardCreateQrcodeRequest implements ApiCloudRequest<String, String> {
+public class WhsPolicyDiscountReadRequest implements ApiCloudRequest<String, WhsPolicyDiscountVOModel> {
 
     private String bizModel;
 
@@ -20,7 +22,7 @@ public class CardCreateQrcodeRequest implements ApiCloudRequest<String, String> 
 
     @Override
     public String getApiMethodName() {
-        return "/nhsoft.amazon.card.create.qrcode";
+        return "/nhsoft.whs.policy.discount.read";
     }
 
     @Override
@@ -34,8 +36,8 @@ public class CardCreateQrcodeRequest implements ApiCloudRequest<String, String> 
     }
 
     @Override
-    public TypeReference<ApiCloudResponse<String>> getResponseTypeReference() {
-        return new TypeReference<ApiCloudResponse<String>>() {};
+    public TypeReference<ApiCloudResponse<WhsPolicyDiscountVOModel>> getResponseTypeReference() {
+        return new TypeReference<ApiCloudResponse<WhsPolicyDiscountVOModel>>() {};
     }
 
 }

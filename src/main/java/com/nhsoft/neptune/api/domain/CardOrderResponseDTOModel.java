@@ -47,7 +47,7 @@ public class CardOrderResponseDTOModel extends ApiCloudObject {
     private String cardUserTypeName;
     @ApiCloudField(value="密码规则(随机密码，固定密码、表面卡号)", example="随机密码", required=true)
     private String cardOrderPasswordType;
-    @ApiCloudField(value="密码", example="10.00", required=true)
+    @ApiCloudField(value="密码", example="10.0", required=true)
     private String cardOrderPassword;
     @ApiCloudField(value="团购类型", example="团购制卡", required=true)
     private String cardOrderType;
@@ -55,6 +55,6 @@ public class CardOrderResponseDTOModel extends ApiCloudObject {
     private String cardOrderMemo;
     @ApiCloudField(value="单据状态", example="制单", required=true)
     private String cardOrderState;
-    @ApiCloudField(value="卡明细", example="")
+    @ApiCloudField(value="卡明细")
     private List<CardOrderSaveDetailResponseDTOModel> cardOrderDetails;
 }

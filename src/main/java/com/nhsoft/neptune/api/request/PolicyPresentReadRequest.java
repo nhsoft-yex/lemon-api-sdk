@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyPresentVOModel;
 import java.util.*;
 
 /**
- * read_8请求类
+ * read_9请求类
  * 赠品促销读取
  */
 public class PolicyPresentReadRequest implements ApiCloudRequest<PolicyOutBillNoReadDTOModel, PolicyPresentVOModel> {

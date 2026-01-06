@@ -19,24 +19,24 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WmsReturnOrderDetailVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="明细编号", example="1")
+    @ApiCloudField(value="明细编号")
     private Integer detailNum;
-    @ApiCloudField(value="仓库编号", example="1")
+    @ApiCloudField(value="仓库编号")
     private Integer storehouseNum;
-    @ApiCloudField(value="商品系统编码", example="1")
+    @ApiCloudField(value="商品系统编码")
     private Integer itemNum;
-    @ApiCloudField(value="商品名称", example="aaa")
+    @ApiCloudField(value="商品名称")
     private String itemName;
-    @ApiCloudField(value="商品代码", example="A0001")
+    @ApiCloudField(value="商品代码")
     private String itemCode;
-    @ApiCloudField(value="商品规格", example="1*3个")
+    @ApiCloudField(value="商品规格")
     private String itemSpec;
-    @ApiCloudField(value="商品条码", example="A0001")
+    @ApiCloudField(value="商品条码")
     private String itemBarcode;
-    @ApiCloudField(value="基本单位", example="个")
+    @ApiCloudField(value="基本单位")
     private String itemUnit;
-    @ApiCloudField(value="基本单位数量（小数点3位）", example="1")
+    @ApiCloudField(value="基本单位数量（小数点3位）")
     private BigDecimal itemQty;
-    @ApiCloudField(value="基本单价（小数点4位）", example="1")
+    @ApiCloudField(value="基本单价（小数点4位）")
     private BigDecimal itemPrice;
 }

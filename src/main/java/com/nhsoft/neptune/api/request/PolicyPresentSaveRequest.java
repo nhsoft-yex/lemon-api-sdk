@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyPresentVOModel;
 import java.util.*;
 
 /**
- * save_14请求类
+ * save_15请求类
  * 赠品促销保存
  */
 public class PolicyPresentSaveRequest implements ApiCloudRequest<PolicyPresentSaveDTOModel, PolicyPresentVOModel> {

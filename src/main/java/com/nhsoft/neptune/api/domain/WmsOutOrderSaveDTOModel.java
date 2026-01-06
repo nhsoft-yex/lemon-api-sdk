@@ -55,6 +55,6 @@ public class WmsOutOrderSaveDTOModel extends ApiCloudObject {
     private String memo;
     @ApiCloudField(value="调整原因", example="出库")
     private String adjustReason;
-    @ApiCloudField(value="出库订单明细", example="", required=true)
+    @ApiCloudField(value="出库订单明细", required=true)
     private List<WmsOutOrderSaveDetailDTOModel> outWarehouseOrderDetails;
 }

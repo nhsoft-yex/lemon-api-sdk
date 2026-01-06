@@ -49,7 +49,7 @@ public class ConsumePointFindResV2DTOModel extends ApiCloudObject {
     private BigDecimal consumePointAmount;
     @ApiCloudField(value="商品名称", example="测试商品")
     private String consumePointItemName;
-    @ApiCloudField(value="兑换类型(积分兑换物品|积分兑券|积分合并|积分转储值)", example="")
+    @ApiCloudField(value="兑换类型(积分兑换物品|积分兑券|积分合并|积分转储值)")
     private String consumePointType;
     @ApiCloudField(value="兑换成本", example="100")
     private BigDecimal consumePointCost;

@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.ClientRequestTimeFoodFullyVOModel;
 import java.util.*;
 
 /**
- * save_9请求类
+ * save_10请求类
  * 批发订货模板新增
  */
 public class RequestTimeFoodSaveRequest implements ApiCloudRequest<ClientRequestTimeFoodSaveDTOModel, ClientRequestTimeFoodFullyVOModel> {

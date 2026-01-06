@@ -19,17 +19,17 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class GiftCardOperatorRecordVOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="操作日志id", example="")
+    @ApiCloudField(value="操作日志id")
     private String logId;
     @ApiCloudField(value="卡id")
     private Long cardId;
-    @ApiCloudField(value="操作类型", example="")
+    @ApiCloudField(value="操作类型")
     private String actionType;
     @ApiCloudField(value="创建时间")
     private String createTime;
-    @ApiCloudField(value="操作人", example="")
+    @ApiCloudField(value="操作人")
     private String operator;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String memo;
     @ApiCloudField(value="门店id")
     private Integer branchId;

@@ -23,7 +23,7 @@ public class CardUserTypeBalanceMoneySummaryDTOModel extends ApiCloudObject {
     private Integer cardUserNum;
     @ApiCloudField(value="门店编码", example="99")
     private Integer branchNum;
-    @ApiCloudField(value="类型代码", example="")
+    @ApiCloudField(value="类型代码")
     private String cardUserTypeCode;
     @ApiCloudField(value="卡余额")
     private BigDecimal cardBalanceMoney;

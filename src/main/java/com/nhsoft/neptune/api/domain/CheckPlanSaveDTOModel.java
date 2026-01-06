@@ -45,7 +45,7 @@ public class CheckPlanSaveDTOModel extends ApiCloudObject {
     private String memo;
     @ApiCloudField(value="仓库编码", example="211300001", required=true)
     private Integer storehouseNum;
-    @ApiCloudField(value="库位信息", example="")
+    @ApiCloudField(value="库位信息")
     private List<CheckPlanPositionSaveDTOModel> wmsStdCheckPlanPositionList;
     @ApiCloudField(value="商品明细列表", example="[1]")
     private List<Integer> checkPlanItemList;

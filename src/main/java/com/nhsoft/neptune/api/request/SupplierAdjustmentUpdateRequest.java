@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.SupplierAdjustmentFullyVOModel;
 import java.util.*;
 
 /**
- * update_7请求类
+ * update_8请求类
  * 供应商调价单更新
  */
 public class SupplierAdjustmentUpdateRequest implements ApiCloudRequest<SupplierAdjustmentUpdateDTOModel, SupplierAdjustmentFullyVOModel> {

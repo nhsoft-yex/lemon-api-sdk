@@ -40,4 +40,6 @@ public class ProcessingOrderSaveV2DTOModel extends ApiCloudObject {
     private String processingOrderMemo;
     @ApiCloudField(value="加工原料明细", example="", required=true)
     private List<ProcessingOrderSaveDetailV2DTOModel> processingOrderDetails;
+    @ApiCloudField(value="processing_order_item")
+    private ProcessingOrderItemDetailSaveDTOModel processingOrderItem;
 }

@@ -23,7 +23,7 @@ public class ClientPreSettlementFindDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="客户编号列表", example="[434400001，434400002]")
     private List<String> clientFids;
-    @ApiCloudField(value="时间类型(制单时间|审核时间|收款日期)", example="审核时间", required=true)
+    @ApiCloudField(value="时间类型", example="审核时间", required=true)
     private String dateType;
     @ApiCloudField(value="开始时间", example="Fri Jan 01 08:00:00 CST 2021", required=true)
     private String dateFrom;

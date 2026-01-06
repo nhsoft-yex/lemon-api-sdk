@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.SupplierAdjustmentReadDTOModel;
 import java.util.*;
 
 /**
- * delete_2请求类
+ * delete_3请求类
  * 供应商调价单删除
  */
 public class SupplierAdjustmentDeleteRequest implements ApiCloudRequest<SupplierAdjustmentReadDTOModel, Object> {

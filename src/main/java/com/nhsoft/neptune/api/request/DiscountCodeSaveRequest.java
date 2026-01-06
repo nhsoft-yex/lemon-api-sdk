@@ -8,7 +8,7 @@ import com.nhsoft.neptune.api.domain.DiscountCodeSaveDTOModel;
 import java.util.*;
 
 /**
- * save_17请求类
+ * save_18请求类
  * 折扣码新增
  */
 public class DiscountCodeSaveRequest implements ApiCloudRequest<DiscountCodeSaveDTOModel, Void> {

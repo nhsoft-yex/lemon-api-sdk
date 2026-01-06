@@ -23,12 +23,12 @@ public class InventoryOrderSaveDTOModel extends ApiCloudObject {
     private Integer branchNum;
     @ApiCloudField(value="类型(IN-添加库存;OUT-扣减库存;TO-库存调整至)", example="IN", required=true)
     private String direction;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String memo;
-    @ApiCloudField(value="第三方单据号", example="")
+    @ApiCloudField(value="第三方单据号")
     private String transactionNo;
-    @ApiCloudField(value="创建人", example="", required=true)
+    @ApiCloudField(value="创建人", required=true)
     private String createdBy;
-    @ApiCloudField(value="调整单明细", example="", required=true)
+    @ApiCloudField(value="调整单明细", required=true)
     private List<InventoryOrderDetailSaveDTOModel> details;
 }

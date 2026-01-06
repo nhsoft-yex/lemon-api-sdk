@@ -33,7 +33,7 @@ public class TicketSendDetailFindBatchDTOModel extends ApiCloudObject {
     private String actionId;
     @ApiCloudField(value="排序字段", example="ticket_send_detail_valid_date")
     private String sortField;
-    @ApiCloudField(value="排序类型(ASC,DESC)", example="")
+    @ApiCloudField(value="排序类型(ASC,DESC)")
     private String sortName;
     @ApiCloudField(value="printed_num")
     private String printedNum;

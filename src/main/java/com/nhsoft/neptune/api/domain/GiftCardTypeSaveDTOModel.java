@@ -25,7 +25,7 @@ public class GiftCardTypeSaveDTOModel extends ApiCloudObject {
     private String typeName;
     @ApiCloudField(value="是否启用", example="true", required=true)
     private Boolean enable;
-    @ApiCloudField(value="背景图片", example="", required=true)
+    @ApiCloudField(value="背景图片", required=true)
     private List<GiftCardBackgroundDTOModel> cardFaceBackgrounds;
     @ApiCloudField(value="面值id列表", example="[1]")
     private List<Integer> valueIds;

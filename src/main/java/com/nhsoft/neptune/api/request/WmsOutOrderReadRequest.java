@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WmsOutOrderVOModel;
 import java.util.*;
 
 /**
- * read_13请求类
+ * read_14请求类
  * 出库单读取
  */
 public class WmsOutOrderReadRequest implements ApiCloudRequest<WmsOutOrderReadDTOModel, WmsOutOrderVOModel> {

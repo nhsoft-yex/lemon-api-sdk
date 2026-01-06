@@ -27,7 +27,7 @@ public class WholesalePriceAdjustOrderUpdateDTOModel extends ApiCloudObject {
     private String priceAdjustmentInvalidDate;
     @ApiCloudField(value="失效后价格（按调整前价格|按当前商品档案价格|随商品档案价格变动）", example="按调整前价格", required=true)
     private String priceAdjustmentReturnType;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String priceAdjustmentMemo;
     @ApiCloudField(value="操作人", example="管理员", required=true)
     private String priceAdjustmentOperator;
@@ -37,6 +37,6 @@ public class WholesalePriceAdjustOrderUpdateDTOModel extends ApiCloudObject {
     private List<String> appliedClientFids;
     @ApiCloudField(value="应用客户等级编码(调整类型为客户等级时必传)", example="1")
     private List<Integer> appliedClientGradeNums;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<WholesalePriceAdjustOrderDetailSaveDTOModel> details;
 }

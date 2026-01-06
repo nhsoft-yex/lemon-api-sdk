@@ -23,6 +23,6 @@ public class PosItemBarCodeSaveVOModel extends ApiCloudObject {
     private String itemBarCode;
     @ApiCloudField(value="换算率（小数点2位）", example="1.0")
     private BigDecimal itemBarRate;
-    @ApiCloudField(value="单位", example="1.00")
+    @ApiCloudField(value="单位", example="1.0")
     private String itemBarUnit;
 }

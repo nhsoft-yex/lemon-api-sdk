@@ -20,8 +20,8 @@ public class InvoiceEmailSendDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="收件人邮箱", example="123456@qq.com", required=true)
     private String emailReceiver;
-    @ApiCloudField(value="要发送的订单ID", example="1", required=true)
+    @ApiCloudField(value="要发送的订单ID(和order_no不能同时为空)", example="1", required=true)
     private Long orderId;
-    @ApiCloudField(value="要发送的订单号", example="4411996750000001", required=true)
+    @ApiCloudField(value="要发送的订单号(和order_id不能同时为空)", example="YH996750000001", required=true)
     private String orderNo;
 }

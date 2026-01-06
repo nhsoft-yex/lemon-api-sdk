@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WhsOtherInComeFullyVOModel;
 import java.util.*;
 
 /**
- * saveAndAudit请求类
+ * saveAndAudit_1请求类
  * 批发其他收入单新增并审核
  */
 public class WhsOtherIncomeSaveandauditRequest implements ApiCloudRequest<WhsOtherInComeSaveDTOModel, WhsOtherInComeFullyVOModel> {

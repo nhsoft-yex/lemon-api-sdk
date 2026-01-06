@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.WmsReturnOrderVOModel;
 import java.util.*;
 
 /**
- * read_12请求类
+ * read_13请求类
  * 销退订单读取
  */
 public class WmsReturnOrderReadRequest implements ApiCloudRequest<WmsReturnOrderReadDTOModel, WmsReturnOrderVOModel> {

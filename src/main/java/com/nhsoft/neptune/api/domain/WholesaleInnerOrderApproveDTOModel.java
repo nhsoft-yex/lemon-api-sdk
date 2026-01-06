@@ -23,10 +23,10 @@ public class WholesaleInnerOrderApproveDTOModel extends ApiCloudObject {
     private String innerOrderFid;
     @ApiCloudField(value="仓库编号", example="203000002", required=true)
     private Integer storehouseNum;
-    @ApiCloudField(value="操作人", example="", required=true)
+    @ApiCloudField(value="操作人", required=true)
     private String innerOrderOperator;
-    @ApiCloudField(value="批复备注", example="")
+    @ApiCloudField(value="批复备注")
     private String innerOrderApproveMemo;
-    @ApiCloudField(value="明细", example="", required=true)
+    @ApiCloudField(value="明细", required=true)
     private List<WholesaleInnerOrderApproveDetailDTOModel> details;
 }

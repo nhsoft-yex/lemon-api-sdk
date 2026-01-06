@@ -39,7 +39,7 @@ public class PaymentOrderVOModel extends ApiCloudObject {
     private String srcGroupId;
     @ApiCloudField(value="业务类型", example="商品")
     private String businessType;
-    @ApiCloudField(value="快速生成单据类型", example="")
+    @ApiCloudField(value="快速生成单据类型")
     private String quickOrderType;
     @ApiCloudField(value="支付方式", example="现金")
     private String settlementType;
@@ -61,11 +61,11 @@ public class PaymentOrderVOModel extends ApiCloudObject {
     private String auditAt;
     @ApiCloudField(value="审核人名称", example="管理员")
     private String auditByName;
-    @ApiCloudField(value="支付流水号", example="")
+    @ApiCloudField(value="支付流水号")
     private String payLogId;
     @ApiCloudField(value="应付单号", example="PN0000820200617000001")
     private String payableOrderId;
-    @ApiCloudField(value="应收单号", example="")
+    @ApiCloudField(value="应收单号")
     private String receivableOrderId;
     @ApiCloudField(value="描述", example="描述信息")
     private String description;

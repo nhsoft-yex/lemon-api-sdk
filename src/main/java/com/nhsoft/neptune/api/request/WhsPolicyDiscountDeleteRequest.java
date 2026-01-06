@@ -3,17 +3,17 @@ package com.nhsoft.neptune.api.request;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.nhsoft.neptune.ApiCloudRequest;
 import com.nhsoft.neptune.ApiCloudResponse;
-import com.nhsoft.neptune.api.domain.CustomerPayOrderCancelDTOModel;
+import com.nhsoft.neptune.api.domain.WhsPolicyDiscountDeleteDTOModel;
 
 import java.util.*;
 
 /**
- * cancelPayOrder请求类
- * 取消付费会员订单
+ * delete_1请求类
+ * 批发超额折扣删除
  */
-public class CustomerPurchaserecordCancelRequest implements ApiCloudRequest<CustomerPayOrderCancelDTOModel, Void> {
+public class WhsPolicyDiscountDeleteRequest implements ApiCloudRequest<WhsPolicyDiscountDeleteDTOModel, Void> {
 
-    private CustomerPayOrderCancelDTOModel bizModel;
+    private WhsPolicyDiscountDeleteDTOModel bizModel;
 
     @Override
     public String method() {
@@ -22,16 +22,16 @@ public class CustomerPurchaserecordCancelRequest implements ApiCloudRequest<Cust
 
     @Override
     public String getApiMethodName() {
-        return "/nhsoft.amazon.customer.purchaserecord.cancel";
+        return "/nhsoft.whs.policy.discount.delete";
     }
 
     @Override
-    public CustomerPayOrderCancelDTOModel getBizModel() {
+    public WhsPolicyDiscountDeleteDTOModel getBizModel() {
         return bizModel;
     }
 
     @Override
-    public void setBizModel(CustomerPayOrderCancelDTOModel bizModel) {
+    public void setBizModel(WhsPolicyDiscountDeleteDTOModel bizModel) {
         this.bizModel = bizModel;
     }
 

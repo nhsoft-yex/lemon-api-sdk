@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PriceAdjustmentVOModel;
 import java.util.*;
 
 /**
- * audit_12请求类
+ * audit_13请求类
  * 商品调价审核
  */
 public class BasicPriceadjAuditRequest implements ApiCloudRequest<PriceAdjustmentUpdateDTOModel, PriceAdjustmentVOModel> {

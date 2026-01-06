@@ -41,9 +41,9 @@ public class WholesaleBookUpdateDTOModel extends ApiCloudObject {
     private String wholesaleBookExpectTime;
     @ApiCloudField(value="运费", example="2.0")
     private BigDecimal wholesaleBookPostFee;
-    @ApiCloudField(value="订单明细", example="", required=true)
+    @ApiCloudField(value="订单明细", required=true)
     private List<WholesaleBookDetailSaveDTOModel> wholesaleBookDetails;
-    @ApiCloudField(value="配送方式", example="")
+    @ApiCloudField(value="配送方式")
     private String wholesaleBookTransferType;
     @ApiCloudField(value="address_id", example="0060099990007553-1")
     private String addressId;

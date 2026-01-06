@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.OutBranchRelateVOModel;
 import java.util.*;
 
 /**
- * read_26请求类
+ * read_29请求类
  * 三方平台门店读取
  */
 public class CustomerOutbranchrelateReadRequest implements ApiCloudRequest<OutBranchRelateReadDTOModel, OutBranchRelateVOModel> {

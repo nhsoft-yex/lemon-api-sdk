@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PolicyMoneyVOModel;
 import java.util.*;
 
 /**
- * update_15请求类
+ * update_16请求类
  * 超额奖励修改
  */
 public class PolicyMoneyUpdateRequest implements ApiCloudRequest<PolicyMoneyUpdateDTOModel, PolicyMoneyVOModel> {

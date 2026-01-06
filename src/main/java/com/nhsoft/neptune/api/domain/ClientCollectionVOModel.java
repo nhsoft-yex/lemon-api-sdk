@@ -55,6 +55,6 @@ public class ClientCollectionVOModel extends ApiCloudObject {
     private Integer stateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String stateName;
-    @ApiCloudField(value="结算明细", example="")
+    @ApiCloudField(value="结算明细")
     private List<ClientCollectionDetailVOModel> clientCollectionDetails;
 }

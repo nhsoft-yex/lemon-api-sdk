@@ -47,8 +47,8 @@ public class CheckPlanVOModel extends ApiCloudObject {
     private Integer checkPlanStateCode;
     @ApiCloudField(value="单据状态", example="制单")
     private String checkPlanStateName;
-    @ApiCloudField(value="盘点任务列表(仅读取接口返回)", example="")
+    @ApiCloudField(value="盘点任务列表(仅读取接口返回)")
     private List<CheckTaskVOModel> tasks;
-    @ApiCloudField(value="任务明细列表(仅读取接口返回)", example="")
+    @ApiCloudField(value="任务明细列表(仅读取接口返回)")
     private List<CheckTaskDetailVOModel> taskDetails;
 }

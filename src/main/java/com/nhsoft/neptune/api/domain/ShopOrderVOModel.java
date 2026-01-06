@@ -51,6 +51,6 @@ public class ShopOrderVOModel extends ApiCloudObject {
     private String expectedDeliveryTime;
     @ApiCloudField(value="单据状态", example="已完成")
     private String orderState;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<ShopOrderDetailRespDTOModel> orderDetails;
 }

@@ -18,8 +18,8 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class WholesaleBookPayConfirmDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="批发订单号", example="WB2030990000008", required=true)
+    @ApiCloudField(value="批发订单号", example="WB2030990000004", required=true)
     private String wholesaleBookFid;
-    @ApiCloudField(value="操作人", example="", required=true)
+    @ApiCloudField(value="操作人", example="admin", required=true)
     private String operator;
 }

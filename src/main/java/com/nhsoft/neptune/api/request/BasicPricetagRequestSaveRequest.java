@@ -10,7 +10,7 @@ import com.nhsoft.neptune.api.domain.PricetagRequestVOModel;
 import java.util.*;
 
 /**
- * save_19请求类
+ * save_20请求类
  * 价签申请单保存
  */
 public class BasicPricetagRequestSaveRequest implements ApiCloudRequest<PricetagRequestSaveDTOModel, PricetagRequestVOModel> {

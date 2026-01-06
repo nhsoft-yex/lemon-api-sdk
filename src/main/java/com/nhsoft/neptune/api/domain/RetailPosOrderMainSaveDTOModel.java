@@ -13,6 +13,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * RetailPosOrderMainSaveDTO模型
+ * 单据主体
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

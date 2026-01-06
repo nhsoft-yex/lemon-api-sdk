@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PosClientIdDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="客户主键（合作伙伴ID）二选一", example="99", required=true)
+    @ApiCloudField(value="客户主键（合作伙伴ID）二选一", example="11", required=true)
     private String clientFid;
 }

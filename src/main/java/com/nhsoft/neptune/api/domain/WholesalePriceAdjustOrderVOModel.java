@@ -37,7 +37,7 @@ public class WholesalePriceAdjustOrderVOModel extends ApiCloudObject {
     private Integer stateCode;
     @ApiCloudField(value="状态名称", example="制单")
     private String stateName;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String priceAdjustmentMemo;
     @ApiCloudField(value="创建人", example="管理员")
     private String priceAdjustmentCreator;
@@ -53,6 +53,6 @@ public class WholesalePriceAdjustOrderVOModel extends ApiCloudObject {
     private List<String> appliedClientFids;
     @ApiCloudField(value="应用客户等级编码(调整类型为客户等级时必传)", example="1")
     private List<Integer> appliedClientGradeNums;
-    @ApiCloudField(value="明细", example="")
+    @ApiCloudField(value="明细")
     private List<WholesalePriceAdjustOrderDetailDTOModel> details;
 }

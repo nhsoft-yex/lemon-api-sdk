@@ -33,7 +33,7 @@ public class CardReplaceReqDTOModel extends ApiCloudObject {
     private BigDecimal replaceCardMoney;
     @ApiCloudField(value="门店编码", required=true)
     private Integer branchNum;
-    @ApiCloudField(value="换卡备注", example="")
+    @ApiCloudField(value="换卡备注")
     private String replaceCardMemo;
     @ApiCloudField(value="换卡支付方式名称", example="现金", required=true)
     private String replaceCardPaymentTypeName;

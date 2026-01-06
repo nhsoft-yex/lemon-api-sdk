@@ -25,7 +25,7 @@ public class WholesaleOrderUpdateDTOModel extends ApiCloudObject {
     private String wholesaleOrderOperator;
     @ApiCloudField(value="备注", example="备注信息")
     private String wholesaleOrderMemo;
-    @ApiCloudField(value="配送方式", example="")
+    @ApiCloudField(value="配送方式")
     private String wholesaleOrderTransferType;
     @ApiCloudField(value="销售日期 格式：yyyy-MM-dd", example="2021-01-18", required=true)
     private String wholesaleOrderDate;
@@ -45,6 +45,6 @@ public class WholesaleOrderUpdateDTOModel extends ApiCloudObject {
     private String wholesaleOrderExtend2;
     @ApiCloudField(value="扩展属性3", example="扩展属性3")
     private String wholesaleOrderExtend3;
-    @ApiCloudField(value="订单明细", example="", required=true)
+    @ApiCloudField(value="订单明细", required=true)
     private List<WholesaleOrderDetailUpdateDTOModel> wholesaleOrderDetails;
 }

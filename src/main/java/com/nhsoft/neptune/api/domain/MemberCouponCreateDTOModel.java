@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class MemberCouponCreateDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="优惠券", example="", required=true)
+    @ApiCloudField(value="优惠券", required=true)
     private List<MemberCouponCreateDetailDTOModel> coupons;
 }

@@ -40,6 +40,6 @@ public class MarketActionFindDTOModel extends ApiCloudObject {
     private Integer pageNo;
     @ApiCloudField(value="查询分页大小", example="10", required=true)
     private Integer pageSize;
-    @ApiCloudField(value="是否包含新版本(true:新老版本数据都返回；false:仅返回老版本数据)(不传默认为false)", example="true")
+    @ApiCloudField(value="新版本包含线上券")
     private Boolean withNewVersion;
 }

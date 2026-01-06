@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class BasketBorrowOrderReadDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="筐借还单号", example="BB20959924247000001", required=true)
+    @ApiCloudField(value="筐借还单号", required=true)
     private String basketBorrowOrderFid;
 }

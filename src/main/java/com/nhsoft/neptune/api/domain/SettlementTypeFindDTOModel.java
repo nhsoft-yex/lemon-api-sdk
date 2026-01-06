@@ -18,6 +18,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SettlementTypeFindDTOModel extends ApiCloudObject {
 
-    @ApiCloudField(value="类别(CASH（现金）, CHANNEL(渠道), BANK（银行）)", example="100")
+    @ApiCloudField(value="类别(CASH（现金）, CHANNEL(渠道), BANK（银行）)", example="CASH")
     private String category;
 }

@@ -59,7 +59,7 @@ public class ClientPreSettlementVOModel extends ApiCloudObject {
     private String relationPreSettlementNo;
     @ApiCloudField(value="最后修改时间 格式：yyyy-MM-dd HH:mm:ss")
     private String preSettlementLastEditTime;
-    @ApiCloudField(value="关联批发订单", example="")
+    @ApiCloudField(value="关联批发订单")
     private List<WholesaleBookVOModel> wholesaleBooks;
     @ApiCloudField(value="现金银行编号", example="950000179")
     private Integer accountBankNum;

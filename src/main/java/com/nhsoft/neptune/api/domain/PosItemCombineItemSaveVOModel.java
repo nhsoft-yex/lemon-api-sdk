@@ -21,7 +21,7 @@ public class PosItemCombineItemSaveVOModel extends ApiCloudObject {
 
     @ApiCloudField(value="组合中的商品编号")
     private Integer combinedItemNum;
-    @ApiCloudField(value="组合中的商品规格", example="10.000")
+    @ApiCloudField(value="组合中的商品规格", example="10.0")
     private String combinedItemSpecNum;
     @ApiCloudField(value="数量（小数点3位）", example="10.0")
     private BigDecimal quantity;

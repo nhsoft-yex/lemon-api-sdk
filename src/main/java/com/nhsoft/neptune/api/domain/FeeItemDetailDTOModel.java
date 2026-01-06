@@ -21,6 +21,6 @@ public class FeeItemDetailDTOModel extends ApiCloudObject {
 
     @ApiCloudField(value="金额", required=true)
     private BigDecimal amount;
-    @ApiCloudField(value="费用项目名称", example="", required=true)
+    @ApiCloudField(value="费用项目名称", required=true)
     private String feeItemName;
 }

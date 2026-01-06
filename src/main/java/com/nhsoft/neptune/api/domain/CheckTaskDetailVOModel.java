@@ -67,6 +67,6 @@ public class CheckTaskDetailVOModel extends ApiCloudObject {
     private String checkUser;
     @ApiCloudField(value="盘点时间")
     private String checkTime;
-    @ApiCloudField(value="备注", example="")
+    @ApiCloudField(value="备注")
     private String itemMemo;
 }
